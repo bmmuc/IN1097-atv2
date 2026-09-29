@@ -1,0 +1,47 @@
+feature,family,max_abs_rho_base,max_abs_rho_base_feature,max_abs_rho_new
+tok_fertility_hatebert,tokenização (domínio),0.8611578188806149,mean_word_len,0.9742493394186884
+tok_continued_hatebert,tokenização (domínio),0.8617343262070623,mean_word_len,0.9742493394186884
+tok_unk_hatebert,tokenização (domínio),0.8729558491973045,pct_docs_with_emoji,0.7371825531495529
+tok_fertility_mbert,tokenização (domínio),0.880182560653375,mean_word_len,0.9600288253663224
+tok_continued_mbert,tokenização (domínio),0.8846985347105453,mean_word_len,0.9484986788373769
+tok_unk_mbert,tokenização (domínio),0.7353918226992815,pct_docs_with_emoji,0.7371825531495529
+tok_fertility_gap,tokenização (domínio),0.6337865786240788,profanity_token_rate,0.5154455921210666
+hl_doc_rate,léxico de ódio (domínio),0.4575355036713624,pct_docs_with_profanity,0.6500600528465049
+hl_token_rate,léxico de ódio (domínio),0.6821759935994561,pct_docs_with_emoji,0.6500600528465049
+hl_class_gap,léxico de ódio (domínio),0.36249671045642207,elongation_rate,0.4400576495775064
+hl_category_entropy,léxico de ódio (domínio),0.6873123130135652,pct_docs_with_profanity,0.5344703338938266
+ch_js_between_classes,dureza de corpus (domínio),0.6449134434858519,knn1_disagreement,0.9584153661464586
+ch_js_class_to_corpus,dureza de corpus (domínio),0.7722333020636476,minority_pct,0.9584153661464586
+ch_vocab_jaccard,dureza de corpus (domínio),0.8347516474179779,imbalance_ratio,0.7955342136854742
+ch_zipf_slope,dureza de corpus (domínio),0.3866972927922469,pct_docs_with_mention,0.3403795339899111
+lm_stump_bow_f1,landmarker,0.52045782782106,n_classes,0.9411284513805522
+lm_tree3_bow_f1,landmarker,0.5160291847195867,n_classes,0.9411284513805522
+lm_nc_tfidf_f1,landmarker,0.5348027565228543,knn1_disagreement,0.7265786314525811
+lm_nc_minilm_f1,landmarker,0.692484993997599,centroid_cosine_gap,0.9478511404561825
+lm_nc_hatebert_f1,landmarker,0.7266746698679472,centroid_cosine_gap,0.9478511404561825
+lm_nc_gap_minilm_minus_tfidf,landmarker,0.6333253301320528,centroid_cosine_gap,0.8014885954381753
+cx_f1,complexidade,0.7919807923169268,centroid_cosine_gap,0.7781512605042017
+cx_n1,complexidade,0.9771897810218978,knn1_disagreement,0.988066940667527
+cx_n2,complexidade,0.9293380395965518,knn1_disagreement,0.8867707082833133
+cx_lsc,complexidade,0.9019184136672576,knn1_disagreement,0.9332533013205282
+cx_t2,complexidade,1.0,n_instances,0.5949407686100575
+cx_t3,complexidade,0.576761249369111,centroid_cosine_gap,0.6212015726989123
+cx_t4,complexidade,0.5949407686100575,n_instances,0.5949407686100575
+cx_density,complexidade,0.9163666815237951,majority_pct,0.9106842737094838
+cx_clscoef,complexidade,0.5063897434080705,is_twitter,0.5167692202586751
+cx_hubs,complexidade,0.8630219215433902,knn1_disagreement,0.9106842737094838
+ih_kdn_minilm,dureza de instância,0.983072823160265,knn1_disagreement,0.9906842737094838
+ih_kdn_hatebert,dureza de instância,0.8954101709995688,majority_pct,0.9735894357743097
+ih_kdn_mbert,dureza de instância,0.887719708421871,majority_pct,0.9735894357743097
+ih_kdn_tfidf,dureza de instância,0.8886810162440832,majority_pct,0.968499399759904
+ih_hard_frac_minilm,dureza de instância,0.9777425631284757,knn1_disagreement,0.9906842737094838
+ih_kdn_gap_tfidf_minus_minilm,dureza de instância,0.7649939975990396,centroid_cosine_gap,0.7854501800720288
+mt_safe,tipologia de minoria,0.5815745877927887,mean_mutual_info,0.9395663764143095
+mt_borderline,tipologia de minoria,0.5474932769880907,knn1_disagreement,0.5964608995932812
+mt_rare,tipologia de minoria,0.5689795918367347,mean_mutual_info,0.9395663764143095
+mt_outlier,tipologia de minoria,0.6916703393127075,minority_pct,0.8483407809384397
+mt_safe_tfidf,tipologia de minoria,0.7247985876458332,minority_pct,0.8407683073229292
+mt_outlier_tfidf,tipologia de minoria,0.9114585186205997,minority_pct,0.8407683073229292
+lc_slope_minilm,curva de aprendizado,0.5111980480767704,minority_pct,0.504921968787515
+lc_slope_tfidf,curva de aprendizado,0.7788235294117647,max_mutual_info,0.7781512605042017
+lc_auc_gap_minilm_minus_tfidf,curva de aprendizado,0.8514285714285714,centroid_cosine_gap,0.8014885954381753

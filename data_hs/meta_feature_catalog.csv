@@ -1,0 +1,83 @@
+feature,origin,group,family,reference
+n_instances,base,simple,simples,descritores de tamanho do dataset (hs_meta_features.py)
+n_classes,base,simple,simples,descritores de tamanho do dataset (hs_meta_features.py)
+log_instances,base,simple,simples,descritores de tamanho do dataset (hs_meta_features.py)
+instances_per_class,base,simple,simples,descritores de tamanho do dataset (hs_meta_features.py)
+majority_pct,base,balance,balanceamento,entropia de Shannon da distribuição de classes (hs_meta_features.py)
+minority_pct,base,balance,balanceamento,entropia de Shannon da distribuição de classes (hs_meta_features.py)
+imbalance_ratio,base,balance,balanceamento,entropia de Shannon da distribuição de classes (hs_meta_features.py)
+class_entropy,base,balance,balanceamento,entropia de Shannon da distribuição de classes (hs_meta_features.py)
+vocab_size,base,lexical,lexical,estatísticas lexicais do corpus (hs_meta_features.py)
+log_vocab_size,base,lexical,lexical,estatísticas lexicais do corpus (hs_meta_features.py)
+vocab_per_instance,base,lexical,lexical,estatísticas lexicais do corpus (hs_meta_features.py)
+type_token_ratio,base,lexical,lexical,estatísticas lexicais do corpus (hs_meta_features.py)
+hapax_ratio,base,lexical,lexical,estatísticas lexicais do corpus (hs_meta_features.py)
+mean_doc_len_words,base,lexical,lexical,estatísticas lexicais do corpus (hs_meta_features.py)
+std_doc_len_words,base,lexical,lexical,estatísticas lexicais do corpus (hs_meta_features.py)
+mean_doc_len_chars,base,lexical,lexical,estatísticas lexicais do corpus (hs_meta_features.py)
+mean_word_len,base,lexical,lexical,estatísticas lexicais do corpus (hs_meta_features.py)
+pct_docs_with_mention,base,social_media,redes sociais,descritores de linguagem de redes sociais (hs_meta_features.py)
+mean_mentions_per_doc,base,social_media,redes sociais,descritores de linguagem de redes sociais (hs_meta_features.py)
+pct_docs_with_url,base,social_media,redes sociais,descritores de linguagem de redes sociais (hs_meta_features.py)
+pct_docs_with_hashtag,base,social_media,redes sociais,descritores de linguagem de redes sociais (hs_meta_features.py)
+mean_hashtags_per_doc,base,social_media,redes sociais,descritores de linguagem de redes sociais (hs_meta_features.py)
+pct_docs_with_emoji,base,social_media,redes sociais,descritores de linguagem de redes sociais (hs_meta_features.py)
+uppercase_char_ratio,base,social_media,redes sociais,descritores de linguagem de redes sociais (hs_meta_features.py)
+exclamation_rate,base,social_media,redes sociais,descritores de linguagem de redes sociais (hs_meta_features.py)
+elongation_rate,base,social_media,redes sociais,descritores de linguagem de redes sociais (hs_meta_features.py)
+pct_docs_with_profanity,base,social_media,redes sociais,descritores de linguagem de redes sociais (hs_meta_features.py)
+profanity_token_rate,base,social_media,redes sociais,descritores de linguagem de redes sociais (hs_meta_features.py)
+mean_mutual_info,base,info_theory,teoria da informação,mutual_info_classif (scikit-learn)
+max_mutual_info,base,info_theory,teoria da informação,mutual_info_classif (scikit-learn)
+centroid_cosine_gap,base,separability,separabilidade,separabilidade em espaço de embeddings MiniLM (hs_meta_features.py)
+knn1_disagreement,base,separability,separabilidade,separabilidade em espaço de embeddings MiniLM (hs_meta_features.py)
+silhouette_by_label,base,separability,separabilidade,separabilidade em espaço de embeddings MiniLM (hs_meta_features.py)
+is_english,base,manifest,metadados,metadados do manifest do dataset
+is_multilingual_row,base,manifest,metadados,metadados do manifest do dataset
+is_twitter,base,manifest,metadados,metadados do manifest do dataset
+tok_fertility_hatebert,new,tok,tokenização (domínio),Rust et al. 2021 ACL 'How good is your tokenizer?'
+tok_continued_hatebert,new,tok,tokenização (domínio),Rust et al. 2021 ACL 'How good is your tokenizer?'
+tok_unk_hatebert,new,tok,tokenização (domínio),Rust et al. 2021 ACL 'How good is your tokenizer?'
+tok_fertility_mbert,new,tok,tokenização (domínio),Rust et al. 2021 ACL 'How good is your tokenizer?'
+tok_continued_mbert,new,tok,tokenização (domínio),Rust et al. 2021 ACL 'How good is your tokenizer?'
+tok_unk_mbert,new,tok,tokenização (domínio),Rust et al. 2021 ACL 'How good is your tokenizer?'
+tok_fertility_gap,new,tok,tokenização (domínio),Rust et al. 2021 ACL 'How good is your tokenizer?'
+hl_doc_rate,new,hl,léxico de ódio (domínio),"Bassignana, Basile & Patti 2018 HurtLex; Wiegand et al. 2019 NAACL"
+hl_token_rate,new,hl,léxico de ódio (domínio),"Bassignana, Basile & Patti 2018 HurtLex; Wiegand et al. 2019 NAACL"
+hl_class_gap,new,hl,léxico de ódio (domínio),"Bassignana, Basile & Patti 2018 HurtLex; Wiegand et al. 2019 NAACL"
+hl_category_entropy,new,hl,léxico de ódio (domínio),"Bassignana, Basile & Patti 2018 HurtLex; Wiegand et al. 2019 NAACL"
+ch_js_between_classes,new,ch,dureza de corpus (domínio),"Pinto & Rosso 2007 TSD; Madrid, Escalante & Morales 2019 CIARP"
+ch_js_class_to_corpus,new,ch,dureza de corpus (domínio),"Pinto & Rosso 2007 TSD; Madrid, Escalante & Morales 2019 CIARP"
+ch_vocab_jaccard,new,ch,dureza de corpus (domínio),"Pinto & Rosso 2007 TSD; Madrid, Escalante & Morales 2019 CIARP"
+ch_zipf_slope,new,ch,dureza de corpus (domínio),"Pinto & Rosso 2007 TSD; Madrid, Escalante & Morales 2019 CIARP"
+lm_stump_bow_f1,new,lm,landmarker,"Pfahringer, Bensusan & Giraud-Carrier 2000 ICML; Furnkranz & Petrak 2001"
+lm_tree3_bow_f1,new,lm,landmarker,"Pfahringer, Bensusan & Giraud-Carrier 2000 ICML; Furnkranz & Petrak 2001"
+lm_nc_tfidf_f1,new,lm,landmarker,"Pfahringer, Bensusan & Giraud-Carrier 2000 ICML; Furnkranz & Petrak 2001"
+lm_nc_minilm_f1,new,lm,landmarker,"Pfahringer, Bensusan & Giraud-Carrier 2000 ICML; Furnkranz & Petrak 2001"
+lm_nc_hatebert_f1,new,lm,landmarker,"Pfahringer, Bensusan & Giraud-Carrier 2000 ICML; Furnkranz & Petrak 2001"
+lm_nc_gap_minilm_minus_tfidf,new,lm,landmarker,"Pfahringer, Bensusan & Giraud-Carrier 2000 ICML; Furnkranz & Petrak 2001"
+cx_f1,new,cx,complexidade,"Ho & Basu 2002 TPAMI; Lorena et al. 2019 ACM CSUR; Garcia, de Carvalho & Lorena 2015"
+cx_n1,new,cx,complexidade,"Ho & Basu 2002 TPAMI; Lorena et al. 2019 ACM CSUR; Garcia, de Carvalho & Lorena 2015"
+cx_n2,new,cx,complexidade,"Ho & Basu 2002 TPAMI; Lorena et al. 2019 ACM CSUR; Garcia, de Carvalho & Lorena 2015"
+cx_lsc,new,cx,complexidade,"Ho & Basu 2002 TPAMI; Lorena et al. 2019 ACM CSUR; Garcia, de Carvalho & Lorena 2015"
+cx_t2,new,cx,complexidade,"Ho & Basu 2002 TPAMI; Lorena et al. 2019 ACM CSUR; Garcia, de Carvalho & Lorena 2015"
+cx_t3,new,cx,complexidade,"Ho & Basu 2002 TPAMI; Lorena et al. 2019 ACM CSUR; Garcia, de Carvalho & Lorena 2015"
+cx_t4,new,cx,complexidade,"Ho & Basu 2002 TPAMI; Lorena et al. 2019 ACM CSUR; Garcia, de Carvalho & Lorena 2015"
+cx_density,new,cx,complexidade,"Ho & Basu 2002 TPAMI; Lorena et al. 2019 ACM CSUR; Garcia, de Carvalho & Lorena 2015"
+cx_clscoef,new,cx,complexidade,"Ho & Basu 2002 TPAMI; Lorena et al. 2019 ACM CSUR; Garcia, de Carvalho & Lorena 2015"
+cx_hubs,new,cx,complexidade,"Ho & Basu 2002 TPAMI; Lorena et al. 2019 ACM CSUR; Garcia, de Carvalho & Lorena 2015"
+ih_kdn_minilm,new,ih,dureza de instância,"Smith, Martinez & Giraud-Carrier 2014 Machine Learning"
+ih_kdn_hatebert,new,ih,dureza de instância,"Smith, Martinez & Giraud-Carrier 2014 Machine Learning"
+ih_kdn_mbert,new,ih,dureza de instância,"Smith, Martinez & Giraud-Carrier 2014 Machine Learning"
+ih_kdn_tfidf,new,ih,dureza de instância,"Smith, Martinez & Giraud-Carrier 2014 Machine Learning"
+ih_hard_frac_minilm,new,ih,dureza de instância,"Smith, Martinez & Giraud-Carrier 2014 Machine Learning"
+ih_kdn_gap_tfidf_minus_minilm,new,ih,dureza de instância,"Smith, Martinez & Giraud-Carrier 2014 Machine Learning"
+mt_safe,new,mt,tipologia de minoria,Napierala & Stefanowski 2016 JIIS
+mt_borderline,new,mt,tipologia de minoria,Napierala & Stefanowski 2016 JIIS
+mt_rare,new,mt,tipologia de minoria,Napierala & Stefanowski 2016 JIIS
+mt_outlier,new,mt,tipologia de minoria,Napierala & Stefanowski 2016 JIIS
+mt_safe_tfidf,new,mt,tipologia de minoria,Napierala & Stefanowski 2016 JIIS
+mt_outlier_tfidf,new,mt,tipologia de minoria,Napierala & Stefanowski 2016 JIIS
+lc_slope_minilm,new,lc,curva de aprendizado,Leite & Brazdil 2005 ICML
+lc_slope_tfidf,new,lc,curva de aprendizado,Leite & Brazdil 2005 ICML
+lc_auc_gap_minilm_minus_tfidf,new,lc,curva de aprendizado,Leite & Brazdil 2005 ICML

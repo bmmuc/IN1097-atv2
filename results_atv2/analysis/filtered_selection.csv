@@ -1,0 +1,83 @@
+cluster_id,feature,origin,family,kept,reason
+1,pct_docs_with_hashtag,base,redes sociais,True,cluster_representative_base_medoid
+1,mean_hashtags_per_doc,base,redes sociais,False,dropped_redundant_in_cluster
+1,is_twitter,base,metadados,False,dropped_redundant_in_cluster
+2,cx_clscoef,new,complexidade,True,singleton_cluster
+3,n_instances,base,simples,True,cluster_representative_base_medoid
+3,log_instances,base,simples,False,dropped_redundant_in_cluster
+3,instances_per_class,base,simples,False,dropped_redundant_in_cluster
+3,cx_t2,new,complexidade,False,dropped_redundant_in_cluster
+4,mean_mutual_info,base,teoria da informação,True,singleton_cluster
+5,cx_t4,new,complexidade,True,singleton_cluster
+6,max_mutual_info,base,teoria da informação,True,cluster_representative_base_medoid
+6,lc_slope_tfidf,new,curva de aprendizado,False,dropped_redundant_in_cluster
+7,mt_safe,new,tipologia de minoria,False,dropped_redundant_in_cluster
+7,mt_rare,new,tipologia de minoria,True,cluster_representative_new_lowest_cost
+7,mt_outlier,new,tipologia de minoria,False,dropped_redundant_in_cluster
+8,lm_nc_minilm_f1,new,landmarker,True,cluster_representative_new_lowest_cost
+8,lm_nc_hatebert_f1,new,landmarker,False,dropped_redundant_in_cluster
+9,lm_nc_tfidf_f1,new,landmarker,True,singleton_cluster
+10,silhouette_by_label,base,separabilidade,True,singleton_cluster
+11,is_english,base,metadados,True,cluster_representative_base_medoid
+11,is_multilingual_row,base,metadados,False,dropped_redundant_in_cluster
+12,tok_fertility_gap,new,tokenização (domínio),True,singleton_cluster
+13,centroid_cosine_gap,base,separabilidade,True,cluster_representative_base_medoid
+13,cx_f1,new,complexidade,False,dropped_redundant_in_cluster
+13,ih_kdn_gap_tfidf_minus_minilm,new,dureza de instância,False,dropped_redundant_in_cluster
+13,lc_auc_gap_minilm_minus_tfidf,new,curva de aprendizado,False,dropped_redundant_in_cluster
+14,lm_nc_gap_minilm_minus_tfidf,new,landmarker,True,singleton_cluster
+15,cx_t3,new,complexidade,True,singleton_cluster
+16,minority_pct,base,balanceamento,True,cluster_representative_base_medoid
+16,imbalance_ratio,base,balanceamento,False,dropped_redundant_in_cluster
+16,mt_safe_tfidf,new,tipologia de minoria,False,dropped_redundant_in_cluster
+16,mt_outlier_tfidf,new,tipologia de minoria,False,dropped_redundant_in_cluster
+17,majority_pct,base,balanceamento,False,dropped_redundant_in_cluster
+17,class_entropy,base,balanceamento,False,dropped_redundant_in_cluster
+17,knn1_disagreement,base,separabilidade,True,cluster_representative_base_medoid
+17,cx_n1,new,complexidade,False,dropped_redundant_in_cluster
+17,cx_n2,new,complexidade,False,dropped_redundant_in_cluster
+17,cx_lsc,new,complexidade,False,dropped_redundant_in_cluster
+17,cx_density,new,complexidade,False,dropped_redundant_in_cluster
+17,cx_hubs,new,complexidade,False,dropped_redundant_in_cluster
+17,ih_kdn_minilm,new,dureza de instância,False,dropped_redundant_in_cluster
+17,ih_kdn_hatebert,new,dureza de instância,False,dropped_redundant_in_cluster
+17,ih_kdn_mbert,new,dureza de instância,False,dropped_redundant_in_cluster
+17,ih_kdn_tfidf,new,dureza de instância,False,dropped_redundant_in_cluster
+17,ih_hard_frac_minilm,new,dureza de instância,False,dropped_redundant_in_cluster
+18,ch_js_between_classes,new,dureza de corpus (domínio),False,dropped_redundant_in_cluster
+18,ch_js_class_to_corpus,new,dureza de corpus (domínio),True,cluster_representative_new_lowest_cost
+18,ch_vocab_jaccard,new,dureza de corpus (domínio),False,dropped_redundant_in_cluster
+19,mt_borderline,new,tipologia de minoria,True,singleton_cluster
+20,lm_stump_bow_f1,new,landmarker,True,cluster_representative_new_lowest_cost
+20,lm_tree3_bow_f1,new,landmarker,False,dropped_redundant_in_cluster
+21,n_classes,base,simples,True,singleton_cluster
+22,lc_slope_minilm,new,curva de aprendizado,True,singleton_cluster
+23,hl_doc_rate,new,léxico de ódio (domínio),True,singleton_cluster
+24,hl_token_rate,new,léxico de ódio (domínio),True,singleton_cluster
+25,hl_class_gap,new,léxico de ódio (domínio),True,singleton_cluster
+26,pct_docs_with_profanity,base,redes sociais,True,cluster_representative_base_medoid
+26,profanity_token_rate,base,redes sociais,False,dropped_redundant_in_cluster
+27,hl_category_entropy,new,léxico de ódio (domínio),True,singleton_cluster
+28,mean_doc_len_words,base,lexical,True,cluster_representative_base_medoid
+28,mean_doc_len_chars,base,lexical,False,dropped_redundant_in_cluster
+29,std_doc_len_words,base,lexical,True,singleton_cluster
+30,vocab_per_instance,base,lexical,True,singleton_cluster
+31,pct_docs_with_emoji,base,redes sociais,True,cluster_representative_base_medoid
+31,tok_unk_hatebert,new,tokenização (domínio),False,dropped_redundant_in_cluster
+31,tok_unk_mbert,new,tokenização (domínio),False,dropped_redundant_in_cluster
+32,type_token_ratio,base,lexical,False,dropped_redundant_in_cluster
+32,hapax_ratio,base,lexical,False,dropped_redundant_in_cluster
+32,mean_word_len,base,lexical,True,cluster_representative_base_medoid
+32,elongation_rate,base,redes sociais,False,dropped_redundant_in_cluster
+32,tok_fertility_hatebert,new,tokenização (domínio),False,dropped_redundant_in_cluster
+32,tok_continued_hatebert,new,tokenização (domínio),False,dropped_redundant_in_cluster
+32,tok_fertility_mbert,new,tokenização (domínio),False,dropped_redundant_in_cluster
+32,tok_continued_mbert,new,tokenização (domínio),False,dropped_redundant_in_cluster
+33,uppercase_char_ratio,base,redes sociais,True,singleton_cluster
+34,pct_docs_with_mention,base,redes sociais,True,cluster_representative_base_medoid
+34,mean_mentions_per_doc,base,redes sociais,False,dropped_redundant_in_cluster
+35,vocab_size,base,lexical,True,cluster_representative_base_medoid
+35,log_vocab_size,base,lexical,False,dropped_redundant_in_cluster
+36,pct_docs_with_url,base,redes sociais,True,singleton_cluster
+37,exclamation_rate,base,redes sociais,True,singleton_cluster
+38,ch_zipf_slope,new,dureza de corpus (domínio),True,singleton_cluster

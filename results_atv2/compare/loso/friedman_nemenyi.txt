@@ -1,0 +1,67 @@
+Friedman + Nemenyi post-hoc analysis -- Atividade 2 (19 treatments)
+======================================================================
+k = 19 treatments = ['AR', 'RegP|base', 'RegP|ext', 'RegP|filt', 'RegP|sel', 'RegP|new', 'RegP|cheap', 'RegR|base', 'RegR|ext', 'RegR|filt', 'RegR|sel', 'RegR|new', 'RegR|cheap', 'Harris|base', 'Harris|ext', 'Harris|filt', 'Harris|sel', 'Harris|new', 'Harris|cheap']
+
+--- Metric: Spearman (higher = better) ---
+Friedman statistic = 54.9417, p-value = 1.30765e-05
+Nemenyi q_alpha(k=19, alpha=0.05) = 3.517
+CD = 3.9583
+Mean ranks (rank 1 = best):
+  RegR|sel         7.960
+  RegR|new         8.160
+  Harris|sel       8.910
+  RegP|base        8.940
+  RegP|sel         9.020
+  RegR|ext         9.040
+  Harris|new       9.280
+  RegR|cheap       9.560
+  RegP|ext         9.560
+  Harris|base      9.880
+  RegP|new         10.000
+  Harris|cheap     10.300
+  RegR|filt        10.400
+  Harris|ext       10.420
+  RegP|filt        10.570
+  RegR|base        11.190
+  Harris|filt      11.270
+  RegP|cheap       11.930
+  AR               13.610
+Pairs with |mean rank diff| >= CD (significantly different):
+  AR vs RegP|base: diff = 4.670
+  AR vs RegP|ext: diff = 4.050
+  AR vs RegP|sel: diff = 4.590
+  AR vs RegR|ext: diff = 4.570
+  AR vs RegR|sel: diff = 5.650
+  AR vs RegR|new: diff = 5.450
+  AR vs RegR|cheap: diff = 4.050
+  AR vs Harris|sel: diff = 4.700
+  AR vs Harris|new: diff = 4.330
+  RegP|cheap vs RegR|sel: diff = 3.970
+
+--- Metric: AUC_loss (lower = better) ---
+Friedman statistic = 31.6316, p-value = 0.0242996
+Nemenyi q_alpha(k=19, alpha=0.05) = 3.517
+CD = 3.9583
+Mean ranks (rank 1 = best):
+  Harris|sel       8.740
+  Harris|cheap     8.900
+  Harris|base      8.910
+  RegP|base        9.180
+  RegP|cheap       9.180
+  Harris|ext       9.490
+  Harris|new       9.560
+  RegP|ext         9.750
+  RegP|filt        9.840
+  RegP|sel         10.080
+  Harris|filt      10.430
+  RegP|new         10.440
+  AR               10.460
+  RegR|sel         10.510
+  RegR|filt        10.540
+  RegR|cheap       10.610
+  RegR|new         10.750
+  RegR|base        11.290
+  RegR|ext         11.340
+Pairs with |mean rank diff| >= CD (significantly different):
+  (none)
+

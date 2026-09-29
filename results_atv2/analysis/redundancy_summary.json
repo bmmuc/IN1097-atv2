@@ -1,0 +1,8 @@
+{
+  "n_clusters": 38,
+  "n_base_only": 14,
+  "n_new_only": 17,
+  "n_mixed": 7,
+  "frac_new_features_max_rho_base_ge_0.7": 0.5652173913043478,
+  "frac_new_features_max_rho_base_ge_0.9": 0.17391304347826086
+}

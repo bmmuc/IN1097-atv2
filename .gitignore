@@ -1,0 +1,12 @@
+__pycache__/
+.venv/
+
+data_hs/datasets/
+data_hs/embeddings/
+data_hs/lexica/
+fontes_locais/
+*.parquet
+*.npy
+*.tsv
+
+results_hs/

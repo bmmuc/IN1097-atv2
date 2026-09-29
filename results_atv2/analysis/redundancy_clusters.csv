@@ -1,0 +1,83 @@
+cluster_id,feature,origin,family,composition
+3,n_instances,base,simples,mixed
+21,n_classes,base,simples,base_only
+3,log_instances,base,simples,mixed
+3,instances_per_class,base,simples,mixed
+17,majority_pct,base,balanceamento,mixed
+16,minority_pct,base,balanceamento,mixed
+16,imbalance_ratio,base,balanceamento,mixed
+17,class_entropy,base,balanceamento,mixed
+35,vocab_size,base,lexical,base_only
+35,log_vocab_size,base,lexical,base_only
+30,vocab_per_instance,base,lexical,base_only
+32,type_token_ratio,base,lexical,mixed
+32,hapax_ratio,base,lexical,mixed
+28,mean_doc_len_words,base,lexical,base_only
+29,std_doc_len_words,base,lexical,base_only
+28,mean_doc_len_chars,base,lexical,base_only
+32,mean_word_len,base,lexical,mixed
+34,pct_docs_with_mention,base,redes sociais,base_only
+34,mean_mentions_per_doc,base,redes sociais,base_only
+36,pct_docs_with_url,base,redes sociais,base_only
+1,pct_docs_with_hashtag,base,redes sociais,base_only
+1,mean_hashtags_per_doc,base,redes sociais,base_only
+31,pct_docs_with_emoji,base,redes sociais,mixed
+33,uppercase_char_ratio,base,redes sociais,base_only
+37,exclamation_rate,base,redes sociais,base_only
+32,elongation_rate,base,redes sociais,mixed
+26,pct_docs_with_profanity,base,redes sociais,base_only
+26,profanity_token_rate,base,redes sociais,base_only
+4,mean_mutual_info,base,teoria da informação,base_only
+6,max_mutual_info,base,teoria da informação,mixed
+13,centroid_cosine_gap,base,separabilidade,mixed
+17,knn1_disagreement,base,separabilidade,mixed
+10,silhouette_by_label,base,separabilidade,base_only
+11,is_english,base,metadados,base_only
+11,is_multilingual_row,base,metadados,base_only
+1,is_twitter,base,metadados,base_only
+32,tok_fertility_hatebert,new,tokenização (domínio),mixed
+32,tok_continued_hatebert,new,tokenização (domínio),mixed
+31,tok_unk_hatebert,new,tokenização (domínio),mixed
+32,tok_fertility_mbert,new,tokenização (domínio),mixed
+32,tok_continued_mbert,new,tokenização (domínio),mixed
+31,tok_unk_mbert,new,tokenização (domínio),mixed
+12,tok_fertility_gap,new,tokenização (domínio),new_only
+23,hl_doc_rate,new,léxico de ódio (domínio),new_only
+24,hl_token_rate,new,léxico de ódio (domínio),new_only
+25,hl_class_gap,new,léxico de ódio (domínio),new_only
+27,hl_category_entropy,new,léxico de ódio (domínio),new_only
+18,ch_js_between_classes,new,dureza de corpus (domínio),new_only
+18,ch_js_class_to_corpus,new,dureza de corpus (domínio),new_only
+18,ch_vocab_jaccard,new,dureza de corpus (domínio),new_only
+38,ch_zipf_slope,new,dureza de corpus (domínio),new_only
+20,lm_stump_bow_f1,new,landmarker,new_only
+20,lm_tree3_bow_f1,new,landmarker,new_only
+9,lm_nc_tfidf_f1,new,landmarker,new_only
+8,lm_nc_minilm_f1,new,landmarker,new_only
+8,lm_nc_hatebert_f1,new,landmarker,new_only
+14,lm_nc_gap_minilm_minus_tfidf,new,landmarker,new_only
+13,cx_f1,new,complexidade,mixed
+17,cx_n1,new,complexidade,mixed
+17,cx_n2,new,complexidade,mixed
+17,cx_lsc,new,complexidade,mixed
+3,cx_t2,new,complexidade,mixed
+15,cx_t3,new,complexidade,new_only
+5,cx_t4,new,complexidade,new_only
+17,cx_density,new,complexidade,mixed
+2,cx_clscoef,new,complexidade,new_only
+17,cx_hubs,new,complexidade,mixed
+17,ih_kdn_minilm,new,dureza de instância,mixed
+17,ih_kdn_hatebert,new,dureza de instância,mixed
+17,ih_kdn_mbert,new,dureza de instância,mixed
+17,ih_kdn_tfidf,new,dureza de instância,mixed
+17,ih_hard_frac_minilm,new,dureza de instância,mixed
+13,ih_kdn_gap_tfidf_minus_minilm,new,dureza de instância,mixed
+7,mt_safe,new,tipologia de minoria,new_only
+19,mt_borderline,new,tipologia de minoria,new_only
+7,mt_rare,new,tipologia de minoria,new_only
+7,mt_outlier,new,tipologia de minoria,new_only
+16,mt_safe_tfidf,new,tipologia de minoria,mixed
+16,mt_outlier_tfidf,new,tipologia de minoria,mixed
+22,lc_slope_minilm,new,curva de aprendizado,new_only
+6,lc_slope_tfidf,new,curva de aprendizado,mixed
+13,lc_auc_gap_minilm_minus_tfidf,new,curva de aprendizado,mixed

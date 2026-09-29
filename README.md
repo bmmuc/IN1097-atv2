@@ -117,5 +117,4 @@ Todas as decisões relacionadas ao desenvolvimento do trabalho foram tomadas por
 
 A IA também foi utilizada como suporte durante a revisão de trechos de código e de texto, enquanto a validação das implementações, dos resultados obtidos e das afirmações apresentadas permaneceu sob minha responsabilidade.
 
-Todos os números reportados foram produzidos pelo código deste repositório e são reproduzíveis pelas etapas 3 e 4 descritas acima.
 # IN1097-atv2

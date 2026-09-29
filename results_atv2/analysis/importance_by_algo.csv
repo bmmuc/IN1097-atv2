@@ -1,0 +1,985 @@
+feature,origin,family,algorithm,imp_impurity,imp_perm
+n_instances,base,simples,tfidf_word_lr,0.00014583769340583544,-0.00014087619047618106
+n_classes,base,simples,tfidf_word_lr,1.8233324420475215e-05,6.9333333333325696e-06
+log_instances,base,simples,tfidf_word_lr,0.00015668259030566617,-3.60923809523901e-05
+instances_per_class,base,simples,tfidf_word_lr,0.00014240623936681457,0.0001584069841269868
+majority_pct,base,balanceamento,tfidf_word_lr,0.0007373835740810571,-0.0007403980952380787
+minority_pct,base,balanceamento,tfidf_word_lr,0.0017204219809444448,0.00011606412698412424
+imbalance_ratio,base,balanceamento,tfidf_word_lr,0.001011150876663314,4.780761904762887e-05
+class_entropy,base,balanceamento,tfidf_word_lr,0.0011027766334749747,-0.0008967276190476094
+vocab_size,base,lexical,tfidf_word_lr,0.01615632992556753,0.0038704847619047667
+log_vocab_size,base,lexical,tfidf_word_lr,0.013774127962681373,0.004640035238095248
+vocab_per_instance,base,lexical,tfidf_word_lr,0.035067752479276834,0.020994448427128456
+type_token_ratio,base,lexical,tfidf_word_lr,0.007046058601249764,0.0029560453968254055
+hapax_ratio,base,lexical,tfidf_word_lr,0.018806638844743834,0.006789137316017334
+mean_doc_len_words,base,lexical,tfidf_word_lr,0.00277841819489307,0.0003958365079365183
+std_doc_len_words,base,lexical,tfidf_word_lr,0.002344981977948644,-0.00025786507936506186
+mean_doc_len_chars,base,lexical,tfidf_word_lr,0.005613288316773447,0.002707439999999997
+mean_word_len,base,lexical,tfidf_word_lr,0.008509754547731703,0.003735963809523826
+pct_docs_with_mention,base,redes sociais,tfidf_word_lr,0.005360290392938719,0.0010245857142857093
+mean_mentions_per_doc,base,redes sociais,tfidf_word_lr,0.0039068647083104705,0.0004627311111111091
+pct_docs_with_url,base,redes sociais,tfidf_word_lr,0.007557435520851123,-0.0003183155555555635
+pct_docs_with_hashtag,base,redes sociais,tfidf_word_lr,0.004896413158882169,-0.00139030634920635
+mean_hashtags_per_doc,base,redes sociais,tfidf_word_lr,0.007455213856295957,-0.0009661838095237978
+pct_docs_with_emoji,base,redes sociais,tfidf_word_lr,0.00839155897757094,0.0040884028571428685
+uppercase_char_ratio,base,redes sociais,tfidf_word_lr,0.0016243123799916325,-0.0012603695238095317
+exclamation_rate,base,redes sociais,tfidf_word_lr,0.005094717548596953,-0.001165760952380937
+elongation_rate,base,redes sociais,tfidf_word_lr,0.0025263786648630298,-0.0017945257142857121
+pct_docs_with_profanity,base,redes sociais,tfidf_word_lr,0.002776478534494662,-0.0010588641269841132
+profanity_token_rate,base,redes sociais,tfidf_word_lr,0.0035786108607430457,-0.0013899053968253858
+mean_mutual_info,base,teoria da informação,tfidf_word_lr,0.007930298605560947,-0.000609993650793617
+max_mutual_info,base,teoria da informação,tfidf_word_lr,0.0031818782708031386,-0.0011967933333333091
+centroid_cosine_gap,base,separabilidade,tfidf_word_lr,0.002395561725345185,-0.0006882590476190362
+knn1_disagreement,base,separabilidade,tfidf_word_lr,0.0012416578776692391,-0.00023704317460316785
+silhouette_by_label,base,separabilidade,tfidf_word_lr,0.011937341263646654,-0.00017239523809520676
+is_english,base,metadados,tfidf_word_lr,4.599046351813325e-06,1.5333333333333866e-05
+is_multilingual_row,base,metadados,tfidf_word_lr,1.9622079098702455e-05,2.598666666666549e-05
+is_twitter,base,metadados,tfidf_word_lr,0.0008516983262873177,0.00042952698412699914
+tok_fertility_hatebert,new,tokenização (domínio),tfidf_word_lr,0.0029612420592909786,0.0016993523809523642
+tok_continued_hatebert,new,tokenização (domínio),tfidf_word_lr,0.004142710815181515,0.0021079834920635053
+tok_unk_hatebert,new,tokenização (domínio),tfidf_word_lr,0.010427263745384783,0.0020414292063491908
+tok_fertility_mbert,new,tokenização (domínio),tfidf_word_lr,0.0033317985971731633,0.001521052380952379
+tok_continued_mbert,new,tokenização (domínio),tfidf_word_lr,0.016766457951342472,0.005959740512820528
+tok_unk_mbert,new,tokenização (domínio),tfidf_word_lr,0.005640052506157807,0.0034398339682539755
+tok_fertility_gap,new,tokenização (domínio),tfidf_word_lr,0.004581959700287047,0.0031378800000000026
+hl_doc_rate,new,léxico de ódio (domínio),tfidf_word_lr,0.0019391022369378448,-0.000592465714285721
+hl_token_rate,new,léxico de ódio (domínio),tfidf_word_lr,0.008727396203244867,0.0028874115440115727
+hl_class_gap,new,léxico de ódio (domínio),tfidf_word_lr,0.011934400317826626,0.0012892076479076474
+hl_category_entropy,new,léxico de ódio (domínio),tfidf_word_lr,0.00381228003643316,0.000102833015873014
+ch_js_between_classes,new,dureza de corpus (domínio),tfidf_word_lr,0.0038041857965134375,0.0015406054834054797
+ch_js_class_to_corpus,new,dureza de corpus (domínio),tfidf_word_lr,0.0014148345073927973,0.0006119790476190598
+ch_vocab_jaccard,new,dureza de corpus (domínio),tfidf_word_lr,0.002078131193433231,-0.0001733876190476118
+ch_zipf_slope,new,dureza de corpus (domínio),tfidf_word_lr,0.03430202315253097,0.03499916412698415
+lm_stump_bow_f1,new,landmarker,tfidf_word_lr,0.001442122106425552,-0.0010158447619047588
+lm_tree3_bow_f1,new,landmarker,tfidf_word_lr,0.0042203069382995475,-0.0011577438095238038
+lm_nc_tfidf_f1,new,landmarker,tfidf_word_lr,0.0013043615705088444,-0.0008872930158730027
+lm_nc_minilm_f1,new,landmarker,tfidf_word_lr,0.00640110404386888,-0.002397996190476177
+lm_nc_hatebert_f1,new,landmarker,tfidf_word_lr,0.004246187328935709,-0.0019047984126984011
+lm_nc_gap_minilm_minus_tfidf,new,landmarker,tfidf_word_lr,0.5762481819726214,0.5166712705783106
+cx_f1,new,complexidade,tfidf_word_lr,0.0015463481033212941,-0.00031151428571426544
+cx_n1,new,complexidade,tfidf_word_lr,0.0008087512796993088,-0.00014831079365078064
+cx_n2,new,complexidade,tfidf_word_lr,0.0053446719901972806,0.0004806704761904831
+cx_lsc,new,complexidade,tfidf_word_lr,0.0018185965946578466,-0.0007260152380952278
+cx_t2,new,complexidade,tfidf_word_lr,0.0001697908448847459,-2.714285714291008e-06
+cx_t3,new,complexidade,tfidf_word_lr,0.0007043839854849849,-0.000499778095238093
+cx_t4,new,complexidade,tfidf_word_lr,0.0066238337400762095,0.001431810793650803
+cx_density,new,complexidade,tfidf_word_lr,0.003908803314877964,-0.00018398126984126692
+cx_clscoef,new,complexidade,tfidf_word_lr,0.0019491884235670511,-0.00040502069264068035
+cx_hubs,new,complexidade,tfidf_word_lr,0.0025910215635346996,-0.0008196980952381077
+ih_kdn_minilm,new,dureza de instância,tfidf_word_lr,0.0010643859079865375,-0.0006781133333333259
+ih_kdn_hatebert,new,dureza de instância,tfidf_word_lr,0.005200428792580409,-0.00018924126984126846
+ih_kdn_mbert,new,dureza de instância,tfidf_word_lr,0.003405085955684092,-0.0002963563636363475
+ih_kdn_tfidf,new,dureza de instância,tfidf_word_lr,0.0035802435848326063,3.9071428571430154e-05
+ih_hard_frac_minilm,new,dureza de instância,tfidf_word_lr,0.0013993698454820435,-0.0002395028571428366
+ih_kdn_gap_tfidf_minus_minilm,new,dureza de instância,tfidf_word_lr,0.0018578160914583819,-0.0007226092063492024
+mt_safe,new,tipologia de minoria,tfidf_word_lr,0.0009625015481892768,-0.0006018761904761662
+mt_borderline,new,tipologia de minoria,tfidf_word_lr,0.003489454894478057,-0.00041803428571427945
+mt_rare,new,tipologia de minoria,tfidf_word_lr,0.00223109320366245,0.0005612466666666744
+mt_outlier,new,tipologia de minoria,tfidf_word_lr,0.0058115546349230395,-0.0002198904761904581
+mt_safe_tfidf,new,tipologia de minoria,tfidf_word_lr,0.0015365522420750736,-0.00020434476190477066
+mt_outlier_tfidf,new,tipologia de minoria,tfidf_word_lr,0.002335773333515681,0.0003622193650793863
+lc_slope_minilm,new,curva de aprendizado,tfidf_word_lr,0.017565956083574523,-2.467999999998065e-05
+lc_slope_tfidf,new,curva de aprendizado,tfidf_word_lr,0.012790275333909279,0.005807532380952364
+lc_auc_gap_minilm_minus_tfidf,new,curva de aprendizado,tfidf_word_lr,0.005714840365726051,0.002659068398268424
+n_instances,base,simples,tfidf_char_svm,0.0228327135298926,0.002411816132756136
+n_classes,base,simples,tfidf_char_svm,3.893224059459087e-05,-3.6000000000022673e-06
+log_instances,base,simples,tfidf_char_svm,0.019710200438516276,0.0019207311111110992
+instances_per_class,base,simples,tfidf_char_svm,0.004000247805168923,-0.00022776285714284222
+majority_pct,base,balanceamento,tfidf_char_svm,0.0015883080506536589,-0.000387179047619064
+minority_pct,base,balanceamento,tfidf_char_svm,0.0034547980364244327,-0.0010206101298701436
+imbalance_ratio,base,balanceamento,tfidf_char_svm,0.002524583225101596,-0.00024352984126984278
+class_entropy,base,balanceamento,tfidf_char_svm,0.0018048480217212777,-0.0003134466666666657
+vocab_size,base,lexical,tfidf_char_svm,0.016154741459632187,-0.0010132584992785197
+log_vocab_size,base,lexical,tfidf_char_svm,0.013424401940452066,-0.0011294317460317353
+vocab_per_instance,base,lexical,tfidf_char_svm,0.12393012071481994,0.030115598412698386
+type_token_ratio,base,lexical,tfidf_char_svm,0.011260008319474183,-0.005340108773448786
+hapax_ratio,base,lexical,tfidf_char_svm,0.009084006768571235,-0.0034410581240981106
+mean_doc_len_words,base,lexical,tfidf_char_svm,0.03573206106030069,0.005795807878787874
+std_doc_len_words,base,lexical,tfidf_char_svm,0.0068261416448064435,-0.004192430505050531
+mean_doc_len_chars,base,lexical,tfidf_char_svm,0.02776847180858579,0.0012797502741702638
+mean_word_len,base,lexical,tfidf_char_svm,0.001861446593548317,0.00013666095238093327
+pct_docs_with_mention,base,redes sociais,tfidf_char_svm,0.002862851126092788,-0.0016488476190476334
+mean_mentions_per_doc,base,redes sociais,tfidf_char_svm,0.004378728138707591,-0.0001696952380952355
+pct_docs_with_url,base,redes sociais,tfidf_char_svm,0.00310499553891083,0.00036742190476190563
+pct_docs_with_hashtag,base,redes sociais,tfidf_char_svm,0.008463367137183184,-0.004356414141414134
+mean_hashtags_per_doc,base,redes sociais,tfidf_char_svm,0.008173480447733989,-0.004264422020202022
+pct_docs_with_emoji,base,redes sociais,tfidf_char_svm,0.0027037437347543557,0.00010709428571427226
+uppercase_char_ratio,base,redes sociais,tfidf_char_svm,0.005683203805190025,-0.005085939278499288
+exclamation_rate,base,redes sociais,tfidf_char_svm,0.004722922894558858,-0.001582245714285722
+elongation_rate,base,redes sociais,tfidf_char_svm,0.008664179177225539,-0.0018538828571428498
+pct_docs_with_profanity,base,redes sociais,tfidf_char_svm,0.007221958141936939,0.00040182571428569154
+profanity_token_rate,base,redes sociais,tfidf_char_svm,0.005595960678942266,-0.00026753904761906273
+mean_mutual_info,base,teoria da informação,tfidf_char_svm,0.010884098281869377,-0.0009896225396825507
+max_mutual_info,base,teoria da informação,tfidf_char_svm,0.009504978297582779,-0.0002469841269841297
+centroid_cosine_gap,base,separabilidade,tfidf_char_svm,0.014552448452060763,-0.0035462069841269706
+knn1_disagreement,base,separabilidade,tfidf_char_svm,0.004544595657023185,-0.0006098114285714381
+silhouette_by_label,base,separabilidade,tfidf_char_svm,0.008156309320102648,-0.0010676517460317468
+is_english,base,metadados,tfidf_char_svm,0.00014068253588308456,-6.225333333333926e-05
+is_multilingual_row,base,metadados,tfidf_char_svm,7.658749977124785e-05,-0.00016149333333334906
+is_twitter,base,metadados,tfidf_char_svm,0.0002469576521998554,-0.00014896000000000554
+tok_fertility_hatebert,new,tokenização (domínio),tfidf_char_svm,0.002602226054880659,-0.0005479634920635062
+tok_continued_hatebert,new,tokenização (domínio),tfidf_char_svm,0.00569524662165847,-0.0026605361904761963
+tok_unk_hatebert,new,tokenização (domínio),tfidf_char_svm,0.00525819828593616,0.0016452690331890088
+tok_fertility_mbert,new,tokenização (domínio),tfidf_char_svm,0.001632030940251028,-0.0002584339682539807
+tok_continued_mbert,new,tokenização (domínio),tfidf_char_svm,0.014438508743414735,-0.012866685714285717
+tok_unk_mbert,new,tokenização (domínio),tfidf_char_svm,0.009240419625579883,0.0008751622222222371
+tok_fertility_gap,new,tokenização (domínio),tfidf_char_svm,0.003946765537090077,-0.0016454328138528047
+hl_doc_rate,new,léxico de ódio (domínio),tfidf_char_svm,0.005929607779394101,-0.0004908187301587254
+hl_token_rate,new,léxico de ódio (domínio),tfidf_char_svm,0.004145413824182884,-0.00043447402597403706
+hl_class_gap,new,léxico de ódio (domínio),tfidf_char_svm,0.01757114383158896,-0.004146441471861472
+hl_category_entropy,new,léxico de ódio (domínio),tfidf_char_svm,0.008434121154140623,-0.0022526669841269804
+ch_js_between_classes,new,dureza de corpus (domínio),tfidf_char_svm,0.00659540849137073,-0.0002917628571428792
+ch_js_class_to_corpus,new,dureza de corpus (domínio),tfidf_char_svm,0.010557753684037755,0.0016715014430014516
+ch_vocab_jaccard,new,dureza de corpus (domínio),tfidf_char_svm,0.0037468058436974316,0.0002629028571428522
+ch_zipf_slope,new,dureza de corpus (domínio),tfidf_char_svm,0.006392886264743561,-0.0024453425396825353
+lm_stump_bow_f1,new,landmarker,tfidf_char_svm,0.008349695526270922,0.0026483228571428557
+lm_tree3_bow_f1,new,landmarker,tfidf_char_svm,0.0041686007837364245,0.0007382999999999761
+lm_nc_tfidf_f1,new,landmarker,tfidf_char_svm,0.007469847942188368,-0.00015454793650794506
+lm_nc_minilm_f1,new,landmarker,tfidf_char_svm,0.016398354601757273,-0.0022275133333333414
+lm_nc_hatebert_f1,new,landmarker,tfidf_char_svm,0.01849630511816373,0.004211645079365047
+lm_nc_gap_minilm_minus_tfidf,new,landmarker,tfidf_char_svm,0.022151244307751665,-0.00014146637806637923
+cx_f1,new,complexidade,tfidf_char_svm,0.01760060596997087,0.0009434311111110878
+cx_n1,new,complexidade,tfidf_char_svm,0.0032538977311970313,-0.0005523733333333274
+cx_n2,new,complexidade,tfidf_char_svm,0.005205770600400162,-0.0010383279365079406
+cx_lsc,new,complexidade,tfidf_char_svm,0.006160964770076389,-0.0006060371428571645
+cx_t2,new,complexidade,tfidf_char_svm,0.02070113138272947,0.002104229783549767
+cx_t3,new,complexidade,tfidf_char_svm,0.21820741806941557,0.0826046821645022
+cx_t4,new,complexidade,tfidf_char_svm,0.015171170713139498,-0.00644190655122656
+cx_density,new,complexidade,tfidf_char_svm,0.0025573374418258557,-0.00031629047619046786
+cx_clscoef,new,complexidade,tfidf_char_svm,0.011194061013264055,-0.0017559450793651027
+cx_hubs,new,complexidade,tfidf_char_svm,0.002770717433557651,-0.00047487301587302957
+ih_kdn_minilm,new,dureza de instância,tfidf_char_svm,0.0029136177776699626,-0.00030432952380953404
+ih_kdn_hatebert,new,dureza de instância,tfidf_char_svm,0.00342730735780159,-0.00018161809523812257
+ih_kdn_mbert,new,dureza de instância,tfidf_char_svm,0.004016173676009061,-3.7333333333344735e-05
+ih_kdn_tfidf,new,dureza de instância,tfidf_char_svm,0.0054996124816598605,-0.001085605367965357
+ih_hard_frac_minilm,new,dureza de instância,tfidf_char_svm,0.002633801825138321,-0.0005588009523809458
+ih_kdn_gap_tfidf_minus_minilm,new,dureza de instância,tfidf_char_svm,0.005125237354883981,-0.0010656317460317507
+mt_safe,new,tipologia de minoria,tfidf_char_svm,0.005201314025710679,-0.001960236190476192
+mt_borderline,new,tipologia de minoria,tfidf_char_svm,0.006514831608748989,-0.002217168253968259
+mt_rare,new,tipologia de minoria,tfidf_char_svm,0.010696407307783018,-0.00234345904761906
+mt_outlier,new,tipologia de minoria,tfidf_char_svm,0.009983300137944066,-0.002667503145743139
+mt_safe_tfidf,new,tipologia de minoria,tfidf_char_svm,0.0077370117126519065,-0.0036645911111111177
+mt_outlier_tfidf,new,tipologia de minoria,tfidf_char_svm,0.010016075927497176,-0.00035537555555560066
+lc_slope_minilm,new,curva de aprendizado,tfidf_char_svm,0.009443376337434643,-0.0005870228571428855
+lc_slope_tfidf,new,curva de aprendizado,tfidf_char_svm,0.011698654008731529,0.0003116279365079361
+lc_auc_gap_minilm_minus_tfidf,new,curva de aprendizado,tfidf_char_svm,0.007371538196929835,-0.002273873968253963
+n_instances,base,simples,tfidf_nb,1.236937391803754e-05,-6.97333333333403e-05
+n_classes,base,simples,tfidf_nb,0.00011792844717490244,-2.566666666667938e-05
+log_instances,base,simples,tfidf_nb,5.452887499605477e-05,-3.992000000000439e-05
+instances_per_class,base,simples,tfidf_nb,0.00031094719004993044,0.00033736285714283594
+majority_pct,base,balanceamento,tfidf_nb,0.19465819025648196,0.12572928894660895
+minority_pct,base,balanceamento,tfidf_nb,0.001131516724746062,-0.0010753695238095537
+imbalance_ratio,base,balanceamento,tfidf_nb,0.005649425888717225,-0.003273136825396846
+class_entropy,base,balanceamento,tfidf_nb,0.04667282223639612,0.013144523347763332
+vocab_size,base,lexical,tfidf_nb,0.001734544544591764,-0.0004130238095238171
+log_vocab_size,base,lexical,tfidf_nb,0.0017226872819032294,-6.518476190478155e-05
+vocab_per_instance,base,lexical,tfidf_nb,0.0017286027776746067,-0.0010921580952381069
+type_token_ratio,base,lexical,tfidf_nb,0.024175987914435353,0.022990260548340493
+hapax_ratio,base,lexical,tfidf_nb,0.0043274570078544565,-0.000945322222222263
+mean_doc_len_words,base,lexical,tfidf_nb,0.003398577445246785,0.002522898412698389
+std_doc_len_words,base,lexical,tfidf_nb,0.0014480033848466825,-0.0004263920634920735
+mean_doc_len_chars,base,lexical,tfidf_nb,0.0039165473925178804,0.0016328673015872704
+mean_word_len,base,lexical,tfidf_nb,0.005137929682682942,-0.0001994692063492173
+pct_docs_with_mention,base,redes sociais,tfidf_nb,0.0011129558213718602,3.2661587301542364e-05
+mean_mentions_per_doc,base,redes sociais,tfidf_nb,0.0005778063721870905,-0.00043475333333335334
+pct_docs_with_url,base,redes sociais,tfidf_nb,0.004348570317504611,-0.002253755959595988
+pct_docs_with_hashtag,base,redes sociais,tfidf_nb,0.0016994711813500644,-0.000667834285714298
+mean_hashtags_per_doc,base,redes sociais,tfidf_nb,0.0022750944940592207,0.0010840028571428143
+pct_docs_with_emoji,base,redes sociais,tfidf_nb,0.008770870497817168,0.000921544126984092
+uppercase_char_ratio,base,redes sociais,tfidf_nb,0.0012827670253643334,-0.0010471723809523993
+exclamation_rate,base,redes sociais,tfidf_nb,0.001863470175771749,-0.0017688288888888977
+elongation_rate,base,redes sociais,tfidf_nb,0.04532931142604109,0.03199122095238091
+pct_docs_with_profanity,base,redes sociais,tfidf_nb,0.0035325650584131785,0.0030649777777777827
+profanity_token_rate,base,redes sociais,tfidf_nb,0.004889416473913772,0.0016882434920634439
+mean_mutual_info,base,teoria da informação,tfidf_nb,0.020839284969844375,0.007974676623376637
+max_mutual_info,base,teoria da informação,tfidf_nb,0.008281215133326261,0.0016164314285713913
+centroid_cosine_gap,base,separabilidade,tfidf_nb,0.005049583133789071,0.0031346263492063263
+knn1_disagreement,base,separabilidade,tfidf_nb,0.020039315603163937,-0.003872283809523841
+silhouette_by_label,base,separabilidade,tfidf_nb,0.002022017043336213,1.6004790764749577e-05
+is_english,base,metadados,tfidf_nb,0.0008202120502643457,0.0005578438095237899
+is_multilingual_row,base,metadados,tfidf_nb,0.0006265229428159284,0.0006598380952380852
+is_twitter,base,metadados,tfidf_nb,8.555367808253516e-05,6.788476190474936e-05
+tok_fertility_hatebert,new,tokenização (domínio),tfidf_nb,0.00588232411654669,0.001122936507936497
+tok_continued_hatebert,new,tokenização (domínio),tfidf_nb,0.0023778532333316353,0.001650223492063466
+tok_unk_hatebert,new,tokenização (domínio),tfidf_nb,0.0038315740471079928,-0.00043164158730162326
+tok_fertility_mbert,new,tokenização (domínio),tfidf_nb,0.001670435238332537,-0.0008008771428571641
+tok_continued_mbert,new,tokenização (domínio),tfidf_nb,0.007336764033924213,0.003850575238095182
+tok_unk_mbert,new,tokenização (domínio),tfidf_nb,0.0013624424975130912,0.00021387999999998407
+tok_fertility_gap,new,tokenização (domínio),tfidf_nb,0.011973722167097505,0.014218625396825349
+hl_doc_rate,new,léxico de ódio (domínio),tfidf_nb,0.002443892014791724,0.0012860460317460297
+hl_token_rate,new,léxico de ódio (domínio),tfidf_nb,0.0017314075763420155,-0.0004991638095238144
+hl_class_gap,new,léxico de ódio (domínio),tfidf_nb,0.012629908652951272,0.004034426984126977
+hl_category_entropy,new,léxico de ódio (domínio),tfidf_nb,0.0024064415787314716,-0.0008545939682540017
+ch_js_between_classes,new,dureza de corpus (domínio),tfidf_nb,0.0019447782374980497,1.2171428571416173e-05
+ch_js_class_to_corpus,new,dureza de corpus (domínio),tfidf_nb,0.0018662272124891771,3.672571428569066e-05
+ch_vocab_jaccard,new,dureza de corpus (domínio),tfidf_nb,0.002022612709349541,-0.0008916085714286194
+ch_zipf_slope,new,dureza de corpus (domínio),tfidf_nb,0.004832944825054646,0.0005502260317459909
+lm_stump_bow_f1,new,landmarker,tfidf_nb,0.0027377940875445332,-0.00027816063492067014
+lm_tree3_bow_f1,new,landmarker,tfidf_nb,0.0017961557476836184,-0.002706149841269863
+lm_nc_tfidf_f1,new,landmarker,tfidf_nb,0.003993508115455132,-0.002887492380952396
+lm_nc_minilm_f1,new,landmarker,tfidf_nb,0.001940153426988779,0.00011255746031745237
+lm_nc_hatebert_f1,new,landmarker,tfidf_nb,0.004182338895911146,0.0019401542857142115
+lm_nc_gap_minilm_minus_tfidf,new,landmarker,tfidf_nb,0.006467027213636556,0.0015045298412697983
+cx_f1,new,complexidade,tfidf_nb,0.002659127438918408,-0.0007896936507936993
+cx_n1,new,complexidade,tfidf_nb,0.04034603724282138,0.0029202892352092062
+cx_n2,new,complexidade,tfidf_nb,0.021441172848694907,-0.008547866984126982
+cx_lsc,new,complexidade,tfidf_nb,0.020003671237086084,-0.0041575075901876205
+cx_t2,new,complexidade,tfidf_nb,8.524362889995366e-05,-5.3333333333438555e-06
+cx_t3,new,complexidade,tfidf_nb,0.004407122851858231,-0.0009124521789321781
+cx_t4,new,complexidade,tfidf_nb,0.0018134020070310955,0.00036124190476186275
+cx_density,new,complexidade,tfidf_nb,0.04754812286841326,0.0008194206349205847
+cx_clscoef,new,complexidade,tfidf_nb,0.004844538331725992,-0.0024643333333333925
+cx_hubs,new,complexidade,tfidf_nb,0.015556553648832433,0.0007836207215006944
+ih_kdn_minilm,new,dureza de instância,tfidf_nb,0.00803772410322463,-0.0003233711111111428
+ih_kdn_hatebert,new,dureza de instância,tfidf_nb,0.13262474008938213,0.04659364213564211
+ih_kdn_mbert,new,dureza de instância,tfidf_nb,0.03092026743250262,-0.0028042563347763752
+ih_kdn_tfidf,new,dureza de instância,tfidf_nb,0.016762276220251747,0.002598896190476189
+ih_hard_frac_minilm,new,dureza de instância,tfidf_nb,0.0081126727007934,-0.0010568698412698717
+ih_kdn_gap_tfidf_minus_minilm,new,dureza de instância,tfidf_nb,0.005335593145036612,-0.00022762825396827063
+mt_safe,new,tipologia de minoria,tfidf_nb,0.0017080013415213206,-0.0004612663492063511
+mt_borderline,new,tipologia de minoria,tfidf_nb,0.00260392073880842,-0.001491770678210674
+mt_rare,new,tipologia de minoria,tfidf_nb,0.0019108622378714133,-0.00011863015873018153
+mt_outlier,new,tipologia de minoria,tfidf_nb,0.0010866399536412783,-0.0006044555555555444
+mt_safe_tfidf,new,tipologia de minoria,tfidf_nb,0.02682628069412017,0.006064680952380915
+mt_outlier_tfidf,new,tipologia de minoria,tfidf_nb,0.06634035077293242,0.020902427619047533
+lc_slope_minilm,new,curva de aprendizado,tfidf_nb,0.002576168125219418,-0.0022518434920634914
+lc_slope_tfidf,new,curva de aprendizado,tfidf_nb,0.0026251585829512904,-0.00019637333333336537
+lc_auc_gap_minilm_minus_tfidf,new,curva de aprendizado,tfidf_nb,0.018749976306529265,0.004431643174603137
+n_instances,base,simples,svd_rf,0.00043749849723763586,-9.653714285714442e-05
+n_classes,base,simples,svd_rf,1.9452574691038887e-05,-5.066666666659889e-06
+log_instances,base,simples,svd_rf,0.0004981074072105407,-0.00017888190476190855
+instances_per_class,base,simples,svd_rf,0.00031328796437016216,-0.0001575609523809307
+majority_pct,base,balanceamento,svd_rf,0.0015457198454535803,-0.000540288802308793
+minority_pct,base,balanceamento,svd_rf,0.01194580279607275,-0.0008170466666666636
+imbalance_ratio,base,balanceamento,svd_rf,0.0024348064359140578,-0.0007207727561327428
+class_entropy,base,balanceamento,svd_rf,0.0018715503064297128,-0.0007449736507936624
+vocab_size,base,lexical,svd_rf,0.0020209436410069245,-0.0012993961904761895
+log_vocab_size,base,lexical,svd_rf,0.0015521120284529822,-0.0009876888888888833
+vocab_per_instance,base,lexical,svd_rf,0.0013863812486597934,-0.00025291555555556356
+type_token_ratio,base,lexical,svd_rf,0.003203007714520254,-3.7197489177481044e-05
+hapax_ratio,base,lexical,svd_rf,0.008993027645942571,-0.0014792552380952396
+mean_doc_len_words,base,lexical,svd_rf,0.001818736156096952,-0.0007929695238094979
+std_doc_len_words,base,lexical,svd_rf,0.0032037901073737876,-0.0005604685714285921
+mean_doc_len_chars,base,lexical,svd_rf,0.002162208874216755,-0.001916959999999993
+mean_word_len,base,lexical,svd_rf,0.004286535684108516,-0.0009562742857142793
+pct_docs_with_mention,base,redes sociais,svd_rf,0.025573247545077275,0.0008561303896103486
+mean_mentions_per_doc,base,redes sociais,svd_rf,0.020329996617567257,0.001965489927849893
+pct_docs_with_url,base,redes sociais,svd_rf,0.002148276594443842,-0.0012228139682539851
+pct_docs_with_hashtag,base,redes sociais,svd_rf,0.0040999368902740274,0.0008091304761904934
+mean_hashtags_per_doc,base,redes sociais,svd_rf,0.005233022743682885,0.0020507511111111207
+pct_docs_with_emoji,base,redes sociais,svd_rf,0.007234613580462455,-0.0028826600000000048
+uppercase_char_ratio,base,redes sociais,svd_rf,0.0028578091078693187,-0.00027828256854256495
+exclamation_rate,base,redes sociais,svd_rf,0.006422327291699612,-0.002235111746031711
+elongation_rate,base,redes sociais,svd_rf,0.007947222459413296,-0.0022053203174603273
+pct_docs_with_profanity,base,redes sociais,svd_rf,0.006578942199851011,-0.002611830476190491
+profanity_token_rate,base,redes sociais,svd_rf,0.0037434746147720576,-0.00115681968253973
+mean_mutual_info,base,teoria da informação,svd_rf,0.004049594654110805,0.00011226730158733962
+max_mutual_info,base,teoria da informação,svd_rf,0.0050660219066039755,5.5207763347761305e-05
+centroid_cosine_gap,base,separabilidade,svd_rf,0.01655750684579349,0.0034852781240980813
+knn1_disagreement,base,separabilidade,svd_rf,0.006225961209131679,0.0006326453968253821
+silhouette_by_label,base,separabilidade,svd_rf,0.007543114978812193,0.0019291695815295748
+is_english,base,metadados,svd_rf,0.0007352799782362954,0.0004829276190476279
+is_multilingual_row,base,metadados,svd_rf,0.0008214941085247366,0.00016121238095239532
+is_twitter,base,metadados,svd_rf,0.00023018440476152373,-0.00014852571428571303
+tok_fertility_hatebert,new,tokenização (domínio),svd_rf,0.01871702539329342,0.0017098993362193366
+tok_continued_hatebert,new,tokenização (domínio),svd_rf,0.027447361130696613,0.0011102645021644993
+tok_unk_hatebert,new,tokenização (domínio),svd_rf,0.0037366324983634167,-0.002160972698412748
+tok_fertility_mbert,new,tokenização (domínio),svd_rf,0.015039987928309614,-0.0015595117460317093
+tok_continued_mbert,new,tokenização (domínio),svd_rf,0.177029943541336,0.04362493887445888
+tok_unk_mbert,new,tokenização (domínio),svd_rf,0.003892971959761091,-0.001979842539682547
+tok_fertility_gap,new,tokenização (domínio),svd_rf,0.01049968070038601,-0.0009388212698412945
+hl_doc_rate,new,léxico de ódio (domínio),svd_rf,0.019258302130549736,0.003891558095238087
+hl_token_rate,new,léxico de ódio (domínio),svd_rf,0.00280179393516494,-0.0003742542857142891
+hl_class_gap,new,léxico de ódio (domínio),svd_rf,0.0071640507350369115,0.0017668359018759012
+hl_category_entropy,new,léxico de ódio (domínio),svd_rf,0.005418740691287849,-0.00042808571428568944
+ch_js_between_classes,new,dureza de corpus (domínio),svd_rf,0.003145382269013379,-0.000602776507936538
+ch_js_class_to_corpus,new,dureza de corpus (domínio),svd_rf,0.0070360110239416586,-0.00010589174603175015
+ch_vocab_jaccard,new,dureza de corpus (domínio),svd_rf,0.005279725297185943,0.0005558742857143005
+ch_zipf_slope,new,dureza de corpus (domínio),svd_rf,0.030151608868723357,0.009269292698412618
+lm_stump_bow_f1,new,landmarker,svd_rf,0.0024909605937213815,-0.0007435790476190495
+lm_tree3_bow_f1,new,landmarker,svd_rf,0.0034410552069237413,-0.0007522419047618629
+lm_nc_tfidf_f1,new,landmarker,svd_rf,0.012132694244226609,0.0018990323809524186
+lm_nc_minilm_f1,new,landmarker,svd_rf,0.0033905550479985625,0.0015938044444444583
+lm_nc_hatebert_f1,new,landmarker,svd_rf,0.0020310040853988133,-0.00013697142857143924
+lm_nc_gap_minilm_minus_tfidf,new,landmarker,svd_rf,0.03290590428012253,0.01684228357864361
+cx_f1,new,complexidade,svd_rf,0.012168670289906012,0.0077070439538239775
+cx_n1,new,complexidade,svd_rf,0.005259012974018937,0.0003527761904761745
+cx_n2,new,complexidade,svd_rf,0.005818663016283738,-4.367142857143173e-05
+cx_lsc,new,complexidade,svd_rf,0.0011525200892170341,-0.00033105333333332697
+cx_t2,new,complexidade,svd_rf,0.0005059831039815616,-0.00015356380952383697
+cx_t3,new,complexidade,svd_rf,0.002855472931370111,-0.0018257991919191784
+cx_t4,new,complexidade,svd_rf,0.002965677194097201,-0.00020205523809522773
+cx_density,new,complexidade,svd_rf,0.010657627876986714,0.0012570641269841543
+cx_clscoef,new,complexidade,svd_rf,0.004696620813316253,-0.0017299619047619317
+cx_hubs,new,complexidade,svd_rf,0.0034225663163283625,-0.0012499253968253766
+ih_kdn_minilm,new,dureza de instância,svd_rf,0.002755330448769501,-0.00033224857142857145
+ih_kdn_hatebert,new,dureza de instância,svd_rf,0.007939738955268507,0.00025092190476185737
+ih_kdn_mbert,new,dureza de instância,svd_rf,0.00519413899804143,0.0008816282539682233
+ih_kdn_tfidf,new,dureza de instância,svd_rf,0.010553288152078913,0.005758596507936508
+ih_hard_frac_minilm,new,dureza de instância,svd_rf,0.008143697308953129,0.0028496034920634855
+ih_kdn_gap_tfidf_minus_minilm,new,dureza de instância,svd_rf,0.005097684258821569,0.0017457787301587435
+mt_safe,new,tipologia de minoria,svd_rf,0.0019961707001699912,7.444761904738448e-06
+mt_borderline,new,tipologia de minoria,svd_rf,0.004566538389992338,0.0009781825396825475
+mt_rare,new,tipologia de minoria,svd_rf,0.006318604303646955,0.0017757273015872738
+mt_outlier,new,tipologia de minoria,svd_rf,0.009278454125948642,0.0035982674458874485
+mt_safe_tfidf,new,tipologia de minoria,svd_rf,0.05712913448155395,0.01886803919191919
+mt_outlier_tfidf,new,tipologia de minoria,svd_rf,0.016223107716891373,-0.0010861432611832648
+lc_slope_minilm,new,curva de aprendizado,svd_rf,0.19666427016553634,0.1229995733333333
+lc_slope_tfidf,new,curva de aprendizado,svd_rf,0.007382299373507583,0.0032669533333333062
+lc_auc_gap_minilm_minus_tfidf,new,curva de aprendizado,svd_rf,0.037152339795026565,0.025843332005772
+n_instances,base,simples,svd_histgb,6.660731632247309e-05,0.00010982666666667206
+n_classes,base,simples,svd_histgb,7.451248602000172e-05,-1.1304761904776138e-05
+log_instances,base,simples,svd_histgb,9.235308979450978e-06,5.160000000002935e-06
+instances_per_class,base,simples,svd_histgb,0.0003105299393799774,0.00024334190476188678
+majority_pct,base,balanceamento,svd_histgb,0.027701778057815242,0.010283157460317435
+minority_pct,base,balanceamento,svd_histgb,0.005111054550399406,0.0010321787301586414
+imbalance_ratio,base,balanceamento,svd_histgb,0.04162339603452382,0.01799867777777777
+class_entropy,base,balanceamento,svd_histgb,0.02690239559182696,0.009545287619047625
+vocab_size,base,lexical,svd_histgb,0.0007817625741502292,-0.00011624952380956023
+log_vocab_size,base,lexical,svd_histgb,0.0006019581359298972,-8.662952380954033e-05
+vocab_per_instance,base,lexical,svd_histgb,0.0039653846771208,0.003245075873015862
+type_token_ratio,base,lexical,svd_histgb,0.04659386958607336,0.024365601587301576
+hapax_ratio,base,lexical,svd_histgb,0.005286787869657536,0.0018298580952380492
+mean_doc_len_words,base,lexical,svd_histgb,0.0008989513161652485,-0.0007814053968254114
+std_doc_len_words,base,lexical,svd_histgb,0.0034195688554572467,0.0009188682539682412
+mean_doc_len_chars,base,lexical,svd_histgb,0.000658758623747867,-0.00044870253968254945
+mean_word_len,base,lexical,svd_histgb,0.0022055803079278624,0.0007289473015872582
+pct_docs_with_mention,base,redes sociais,svd_histgb,0.0037972707235152175,0.0020829094372294137
+mean_mentions_per_doc,base,redes sociais,svd_histgb,0.0019019600791372459,0.0007711945743145396
+pct_docs_with_url,base,redes sociais,svd_histgb,0.001243211468894233,-3.0733333333330426e-05
+pct_docs_with_hashtag,base,redes sociais,svd_histgb,0.001178258994022473,-2.2180317460332755e-05
+mean_hashtags_per_doc,base,redes sociais,svd_histgb,0.002419724640501405,-0.0006148800000000618
+pct_docs_with_emoji,base,redes sociais,svd_histgb,0.002243457632443748,0.0004554171428571755
+uppercase_char_ratio,base,redes sociais,svd_histgb,0.0030770473155629623,0.0018960212698412525
+exclamation_rate,base,redes sociais,svd_histgb,0.005042129025773439,0.0007632879365079395
+elongation_rate,base,redes sociais,svd_histgb,0.003991987070774988,0.000754935238095184
+pct_docs_with_profanity,base,redes sociais,svd_histgb,0.0692951065506684,0.02135026229326226
+profanity_token_rate,base,redes sociais,svd_histgb,0.02417551482880754,0.005569450678210611
+mean_mutual_info,base,teoria da informação,svd_histgb,0.010743544367290088,0.003845017691197631
+max_mutual_info,base,teoria da informação,svd_histgb,0.015653630012100163,0.003945729812409806
+centroid_cosine_gap,base,separabilidade,svd_histgb,0.007534803172694007,0.0037060626839826604
+knn1_disagreement,base,separabilidade,svd_histgb,0.001631751818592439,-0.0001328777777777794
+silhouette_by_label,base,separabilidade,svd_histgb,0.0035965801680255495,-0.0001560088888888776
+is_english,base,metadados,svd_histgb,0.0042863852842405185,0.0027326926984126763
+is_multilingual_row,base,metadados,svd_histgb,0.005032940912616149,0.0025506377777777733
+is_twitter,base,metadados,svd_histgb,6.847083459372237e-05,5.175238095240562e-06
+tok_fertility_hatebert,new,tokenização (domínio),svd_histgb,0.017971649892392343,0.005450906349206288
+tok_continued_hatebert,new,tokenização (domínio),svd_histgb,0.005634592217380601,0.0031339929004328775
+tok_unk_hatebert,new,tokenização (domínio),svd_histgb,0.004315971132128443,0.0021222206349205885
+tok_fertility_mbert,new,tokenização (domínio),svd_histgb,0.0037056047172678375,0.0016490692063491589
+tok_continued_mbert,new,tokenização (domínio),svd_histgb,0.00838782993602841,0.003506064646464641
+tok_unk_mbert,new,tokenização (domínio),svd_histgb,0.001474508956798849,-0.0005256501587301628
+tok_fertility_gap,new,tokenização (domínio),svd_histgb,0.008757612030812923,0.002117871746031701
+hl_doc_rate,new,léxico de ódio (domínio),svd_histgb,0.00430379414982183,-0.0001596215873015931
+hl_token_rate,new,léxico de ódio (domínio),svd_histgb,0.003327579208700945,-0.0011797073015873052
+hl_class_gap,new,léxico de ódio (domínio),svd_histgb,0.003935109224631058,-0.0008983460317460434
+hl_category_entropy,new,léxico de ódio (domínio),svd_histgb,0.004992001545378371,0.0007321409523809397
+ch_js_between_classes,new,dureza de corpus (domínio),svd_histgb,0.0025651715907989534,0.0004160793650793495
+ch_js_class_to_corpus,new,dureza de corpus (domínio),svd_histgb,0.002395390738686225,0.0003287412698412511
+ch_vocab_jaccard,new,dureza de corpus (domínio),svd_histgb,0.01103538440402744,0.002716606031746011
+ch_zipf_slope,new,dureza de corpus (domínio),svd_histgb,0.007336417881571286,0.001960870418470422
+lm_stump_bow_f1,new,landmarker,svd_histgb,0.003464519584669584,-2.181428571431574e-05
+lm_tree3_bow_f1,new,landmarker,svd_histgb,0.001838938442673968,-0.0005074711111111477
+lm_nc_tfidf_f1,new,landmarker,svd_histgb,0.007276689926587951,0.002574002539682527
+lm_nc_minilm_f1,new,landmarker,svd_histgb,0.0033818347946697677,0.0007264492063491743
+lm_nc_hatebert_f1,new,landmarker,svd_histgb,0.002718248872630559,0.00017829552669552235
+lm_nc_gap_minilm_minus_tfidf,new,landmarker,svd_histgb,0.011324815444960843,0.0068295533333333075
+cx_f1,new,complexidade,svd_histgb,0.01497326831434253,0.006193933968253966
+cx_n1,new,complexidade,svd_histgb,0.0009538213825819022,-0.000520465396825382
+cx_n2,new,complexidade,svd_histgb,0.0022381523709762608,0.00011492634920632703
+cx_lsc,new,complexidade,svd_histgb,0.0024981409548368075,-0.0009365479365079337
+cx_t2,new,complexidade,svd_histgb,7.415559476759993e-05,7.934285714286538e-05
+cx_t3,new,complexidade,svd_histgb,0.0033042930150481223,0.0023354120634920183
+cx_t4,new,complexidade,svd_histgb,0.002627831894713459,0.0007997339682539372
+cx_density,new,complexidade,svd_histgb,0.005551058192261296,-0.0013379577777778036
+cx_clscoef,new,complexidade,svd_histgb,0.009353558286877905,0.0063703399999999535
+cx_hubs,new,complexidade,svd_histgb,0.007638395777514756,-0.001123254199134204
+ih_kdn_minilm,new,dureza de instância,svd_histgb,0.0022531305881479924,-0.00015874539682539867
+ih_kdn_hatebert,new,dureza de instância,svd_histgb,0.002762002033194745,-0.002638618412698404
+ih_kdn_mbert,new,dureza de instância,svd_histgb,0.012983967072414535,-0.0001481939105339461
+ih_kdn_tfidf,new,dureza de instância,svd_histgb,0.0015494601761030034,-8.157968253971863e-05
+ih_hard_frac_minilm,new,dureza de instância,svd_histgb,0.001990725255024831,-0.0006722257142857154
+ih_kdn_gap_tfidf_minus_minilm,new,dureza de instância,svd_histgb,0.005508927732564129,0.0024425365079364892
+mt_safe,new,tipologia de minoria,svd_histgb,0.027590237050316806,0.012347688225108197
+mt_borderline,new,tipologia de minoria,svd_histgb,0.00813894704342828,0.0008290241269841251
+mt_rare,new,tipologia de minoria,svd_histgb,0.003269850262333565,-0.0007697517460317615
+mt_outlier,new,tipologia de minoria,svd_histgb,0.00889509262221026,-0.001404793333333361
+mt_safe_tfidf,new,tipologia de minoria,svd_histgb,0.09984502057551393,0.05309599038961037
+mt_outlier_tfidf,new,tipologia de minoria,svd_histgb,0.02334739268224126,0.011864740634920563
+lc_slope_minilm,new,curva de aprendizado,svd_histgb,0.00645630228711856,0.0007053730158730143
+lc_slope_tfidf,new,curva de aprendizado,svd_histgb,0.0025217448057753547,-0.0005644736507936732
+lc_auc_gap_minilm_minus_tfidf,new,curva de aprendizado,svd_histgb,0.2904049532053222,0.122698741014541
+n_instances,base,simples,svd_knn,0.00023575768878375422,1.3973333333336505e-05
+n_classes,base,simples,svd_knn,1.2238987708478452e-05,3.6495238095231032e-06
+log_instances,base,simples,svd_knn,0.00017059804616321176,5.6990476190465154e-05
+instances_per_class,base,simples,svd_knn,0.00014093957065384864,5.958730158726097e-07
+majority_pct,base,balanceamento,svd_knn,0.009093527316157677,0.003512756190476166
+minority_pct,base,balanceamento,svd_knn,0.003279651500390577,-0.00013780571428573165
+imbalance_ratio,base,balanceamento,svd_knn,0.02333429806141946,0.010961998730158696
+class_entropy,base,balanceamento,svd_knn,0.009268870158932081,0.0031707584126983734
+vocab_size,base,lexical,svd_knn,0.004397886589167429,0.000881878412698374
+log_vocab_size,base,lexical,svd_knn,0.004404726803083068,0.001246153333333324
+vocab_per_instance,base,lexical,svd_knn,0.005662909381905692,0.0010349457142856714
+type_token_ratio,base,lexical,svd_knn,0.004186977277385612,0.0007080142857142916
+hapax_ratio,base,lexical,svd_knn,0.029772469394255246,0.0022395217027417333
+mean_doc_len_words,base,lexical,svd_knn,0.0025333051281404414,0.00010211999999995536
+std_doc_len_words,base,lexical,svd_knn,0.001991429187526132,-3.799396825396869e-05
+mean_doc_len_chars,base,lexical,svd_knn,0.004224713503158199,0.0011655187301587164
+mean_word_len,base,lexical,svd_knn,0.004253122230984785,-0.0009627444444444243
+pct_docs_with_mention,base,redes sociais,svd_knn,0.005999678906086124,-0.0015086158730158313
+mean_mentions_per_doc,base,redes sociais,svd_knn,0.002186954020662006,-0.0005356380952380779
+pct_docs_with_url,base,redes sociais,svd_knn,0.0038670686163628765,0.0007802034920634996
+pct_docs_with_hashtag,base,redes sociais,svd_knn,0.007869288616422974,0.0043652170562770275
+mean_hashtags_per_doc,base,redes sociais,svd_knn,0.002558959940477944,0.0009486628571428928
+pct_docs_with_emoji,base,redes sociais,svd_knn,0.001632397612085172,0.0003664974025974112
+uppercase_char_ratio,base,redes sociais,svd_knn,0.003790620724820424,-0.0008294476190476527
+exclamation_rate,base,redes sociais,svd_knn,0.0036600889234659115,5.804603174602114e-05
+elongation_rate,base,redes sociais,svd_knn,0.002399472307064973,-0.0008011784126984297
+pct_docs_with_profanity,base,redes sociais,svd_knn,0.010048770944485376,0.001323798095238084
+profanity_token_rate,base,redes sociais,svd_knn,0.01963910945800219,0.00364232571428574
+mean_mutual_info,base,teoria da informação,svd_knn,0.05437689260500186,0.019777498961038947
+max_mutual_info,base,teoria da informação,svd_knn,0.0030216100216415276,-0.000279443492063526
+centroid_cosine_gap,base,separabilidade,svd_knn,0.0165849241100366,0.0036348486868686704
+knn1_disagreement,base,separabilidade,svd_knn,0.0025621484563894616,-0.0004294752380952489
+silhouette_by_label,base,separabilidade,svd_knn,0.0060995082578354344,-0.0002598966810966807
+is_english,base,metadados,svd_knn,0.0076981126460691895,0.0010391478210678364
+is_multilingual_row,base,metadados,svd_knn,0.009232810903976343,0.0006624714285714446
+is_twitter,base,metadados,svd_knn,0.00017080298597574903,5.195047619047965e-05
+tok_fertility_hatebert,new,tokenização (domínio),svd_knn,0.05776112305928419,0.008698593737373715
+tok_continued_hatebert,new,tokenização (domínio),svd_knn,0.02171857251487351,0.00256195284271284
+tok_unk_hatebert,new,tokenização (domínio),svd_knn,0.0016862602571884422,0.0007332720634920654
+tok_fertility_mbert,new,tokenização (domínio),svd_knn,0.0034153355582103133,-0.0012155990476190256
+tok_continued_mbert,new,tokenização (domínio),svd_knn,0.16763032049104915,0.06699455945165943
+tok_unk_mbert,new,tokenização (domínio),svd_knn,0.002625215540147867,0.0006150787301587388
+tok_fertility_gap,new,tokenização (domínio),svd_knn,0.047964957032259184,0.00483808349206351
+hl_doc_rate,new,léxico de ódio (domínio),svd_knn,0.00515900908564756,0.0008182003174603046
+hl_token_rate,new,léxico de ódio (domínio),svd_knn,0.004591321647201335,-0.0006170536507937015
+hl_class_gap,new,léxico de ódio (domínio),svd_knn,0.004620232169627212,-0.0032119717460317595
+hl_category_entropy,new,léxico de ódio (domínio),svd_knn,0.0026112117667310506,-0.000699829206349251
+ch_js_between_classes,new,dureza de corpus (domínio),svd_knn,0.004270940305204822,0.0003344171428570885
+ch_js_class_to_corpus,new,dureza de corpus (domínio),svd_knn,0.0032927694180147774,-0.0005385481962481918
+ch_vocab_jaccard,new,dureza de corpus (domínio),svd_knn,0.027029915524653468,0.0129475422222222
+ch_zipf_slope,new,dureza de corpus (domínio),svd_knn,0.015812903292724674,-0.00035959111111109096
+lm_stump_bow_f1,new,landmarker,svd_knn,0.0027618916419665978,-0.0006580447619047591
+lm_tree3_bow_f1,new,landmarker,svd_knn,0.0034617517413252454,-0.0006163638095238527
+lm_nc_tfidf_f1,new,landmarker,svd_knn,0.002223962354335581,-0.0003081238095238387
+lm_nc_minilm_f1,new,landmarker,svd_knn,0.004600855700243813,0.0009732504761904246
+lm_nc_hatebert_f1,new,landmarker,svd_knn,0.007988213319752533,-0.001592002222222244
+lm_nc_gap_minilm_minus_tfidf,new,landmarker,svd_knn,0.05150754226528955,0.03130560603174602
+cx_f1,new,complexidade,svd_knn,0.00475164448793681,0.002459573333333344
+cx_n1,new,complexidade,svd_knn,0.0011985905978870407,-0.0001646685714285714
+cx_n2,new,complexidade,svd_knn,0.006717284441172396,-0.0007450914285714743
+cx_lsc,new,complexidade,svd_knn,0.0020928840447056894,0.00024351206349206844
+cx_t2,new,complexidade,svd_knn,0.00011521456935496927,1.6186666666684778e-05
+cx_t3,new,complexidade,svd_knn,0.009067234002257308,0.005799353333333316
+cx_t4,new,complexidade,svd_knn,0.0025281831163851682,0.0014077698412698508
+cx_density,new,complexidade,svd_knn,0.0022219614376409484,-0.0001210942857142884
+cx_clscoef,new,complexidade,svd_knn,0.0034573716453505294,-0.0018336726984126786
+cx_hubs,new,complexidade,svd_knn,0.003377674135125156,-0.0012608422222222528
+ih_kdn_minilm,new,dureza de instância,svd_knn,0.0011197253226630306,-0.0005745479365079475
+ih_kdn_hatebert,new,dureza de instância,svd_knn,0.0020319332434199757,-0.0006263546031745925
+ih_kdn_mbert,new,dureza de instância,svd_knn,0.0031908928447167695,-0.00047285587301587704
+ih_kdn_tfidf,new,dureza de instância,svd_knn,0.003244810899620402,1.0090476190458582e-05
+ih_hard_frac_minilm,new,dureza de instância,svd_knn,0.0016941687086804318,-0.00023320095238093955
+ih_kdn_gap_tfidf_minus_minilm,new,dureza de instância,svd_knn,0.11098473456872626,0.03422849800865803
+mt_safe,new,tipologia de minoria,svd_knn,0.012743092016590981,0.0033026363636363535
+mt_borderline,new,tipologia de minoria,svd_knn,0.0026230014986175143,-0.0005905657142857241
+mt_rare,new,tipologia de minoria,svd_knn,0.0035503402235586108,-0.001620766031746054
+mt_outlier,new,tipologia de minoria,svd_knn,0.0165564506378151,0.006149210995671017
+mt_safe_tfidf,new,tipologia de minoria,svd_knn,0.01363082026323828,0.004486120317460344
+mt_outlier_tfidf,new,tipologia de minoria,svd_knn,0.005056273341823089,-0.00015308825396824063
+lc_slope_minilm,new,curva de aprendizado,svd_knn,0.005637387739186522,-0.00014296666666669511
+lc_slope_tfidf,new,curva de aprendizado,svd_knn,0.0030933151028853,-0.00021923873015874227
+lc_auc_gap_minilm_minus_tfidf,new,curva de aprendizado,svd_knn,0.06621806554223306,0.009374122712842695
+n_instances,base,simples,minilm_lr,0.00014604876379564757,-0.00023816190476191055
+n_classes,base,simples,minilm_lr,0.0001633084084769293,-5.5599999999998316e-05
+log_instances,base,simples,minilm_lr,6.253055089459113e-05,-0.00015161523809524447
+instances_per_class,base,simples,minilm_lr,0.0003226611524158716,-0.0002660152380952374
+majority_pct,base,balanceamento,minilm_lr,0.001522725089553314,0.00022207206349207095
+minority_pct,base,balanceamento,minilm_lr,0.006238039399902433,0.004548245021644995
+imbalance_ratio,base,balanceamento,minilm_lr,0.0008225089360157702,0.00013175619047620367
+class_entropy,base,balanceamento,minilm_lr,0.001243415983623899,0.00015008952380951565
+vocab_size,base,lexical,minilm_lr,0.0009897275399358754,-7.939529581529039e-05
+log_vocab_size,base,lexical,minilm_lr,0.0006875001770130721,0.00015602952380953106
+vocab_per_instance,base,lexical,minilm_lr,0.001792377420938443,-0.0015549812698413077
+type_token_ratio,base,lexical,minilm_lr,0.006995801510102662,-0.0005079980952380805
+hapax_ratio,base,lexical,minilm_lr,0.012966632731851196,-2.77311111110909e-05
+mean_doc_len_words,base,lexical,minilm_lr,0.0007137437925089529,-0.0006823980952381077
+std_doc_len_words,base,lexical,minilm_lr,0.0006052229301828115,-0.0012043333333333298
+mean_doc_len_chars,base,lexical,minilm_lr,0.0014076162772328597,-0.0005437847619047529
+mean_word_len,base,lexical,minilm_lr,0.0016008697698104896,-0.003061329523809489
+pct_docs_with_mention,base,redes sociais,minilm_lr,0.0013893879246288658,-0.002413266666666675
+mean_mentions_per_doc,base,redes sociais,minilm_lr,0.0011678631527614954,-0.0008537380952380741
+pct_docs_with_url,base,redes sociais,minilm_lr,0.00020642213798834864,-0.00018723428571429369
+pct_docs_with_hashtag,base,redes sociais,minilm_lr,0.0005659312271850198,-0.0002212028571428422
+mean_hashtags_per_doc,base,redes sociais,minilm_lr,0.000359898780021541,-0.0007050536507936546
+pct_docs_with_emoji,base,redes sociais,minilm_lr,0.0008473676415919207,0.0004149161904761703
+uppercase_char_ratio,base,redes sociais,minilm_lr,0.0005176825233584812,-0.0013970019047619033
+exclamation_rate,base,redes sociais,minilm_lr,0.00041233524499857167,6.243428571428501e-05
+elongation_rate,base,redes sociais,minilm_lr,0.0006667431983458484,-0.0008722904761904861
+pct_docs_with_profanity,base,redes sociais,minilm_lr,0.04854399605266962,0.021615954920634936
+profanity_token_rate,base,redes sociais,minilm_lr,0.051285707997163865,0.023541747936507915
+mean_mutual_info,base,teoria da informação,minilm_lr,0.003321452288821385,0.0012084231746031843
+max_mutual_info,base,teoria da informação,minilm_lr,0.0005424896753226778,-0.0003031453968254012
+centroid_cosine_gap,base,separabilidade,minilm_lr,0.027708228860292682,0.0004997583838383967
+knn1_disagreement,base,separabilidade,minilm_lr,0.0007557353174613818,8.51866666666734e-05
+silhouette_by_label,base,separabilidade,minilm_lr,0.004976943898300637,-0.0005622742857142536
+is_english,base,metadados,minilm_lr,0.044269052435639056,0.011196164790764775
+is_multilingual_row,base,metadados,minilm_lr,0.0433268690150998,0.012596763809523825
+is_twitter,base,metadados,minilm_lr,0.000131344657443841,-0.00010552000000000695
+tok_fertility_hatebert,new,tokenização (domínio),minilm_lr,0.06803632524640477,0.012369051024531022
+tok_continued_hatebert,new,tokenização (domínio),minilm_lr,0.04670640660176727,0.011924184444444427
+tok_unk_hatebert,new,tokenização (domínio),minilm_lr,0.0003291710591282463,-0.0007323466666666609
+tok_fertility_mbert,new,tokenização (domínio),minilm_lr,0.0013377243039648342,-0.0016918333333333223
+tok_continued_mbert,new,tokenização (domínio),minilm_lr,0.03947236246838444,-0.0020324476190475725
+tok_unk_mbert,new,tokenização (domínio),minilm_lr,0.0015998403402535926,-0.0010234322077921996
+tok_fertility_gap,new,tokenização (domínio),minilm_lr,0.04780131889998541,0.014373377316017334
+hl_doc_rate,new,léxico de ódio (domínio),minilm_lr,0.0007854537415659761,-0.0005340092063492032
+hl_token_rate,new,léxico de ódio (domínio),minilm_lr,0.002990828646898404,0.0028991082539682445
+hl_class_gap,new,léxico de ódio (domínio),minilm_lr,0.0009074530849076511,-0.0009810266666666727
+hl_category_entropy,new,léxico de ódio (domínio),minilm_lr,0.00139945846501127,-0.00015180825396826088
+ch_js_between_classes,new,dureza de corpus (domínio),minilm_lr,0.0020334640557620525,-0.00022466666666667344
+ch_js_class_to_corpus,new,dureza de corpus (domínio),minilm_lr,0.0014811952816505092,0.0005226412698412555
+ch_vocab_jaccard,new,dureza de corpus (domínio),minilm_lr,0.000774565721360144,0.00033711428571427435
+ch_zipf_slope,new,dureza de corpus (domínio),minilm_lr,0.002705477128083606,0.0021761250793650745
+lm_stump_bow_f1,new,landmarker,minilm_lr,0.0023372174077520794,-0.0005520073015873022
+lm_tree3_bow_f1,new,landmarker,minilm_lr,0.005468091485869595,5.553111111111581e-05
+lm_nc_tfidf_f1,new,landmarker,minilm_lr,0.0018964583379202822,-0.0001887901587301346
+lm_nc_minilm_f1,new,landmarker,minilm_lr,0.0071451222800431756,0.0010634628571428747
+lm_nc_hatebert_f1,new,landmarker,minilm_lr,0.0031889437605408773,-0.00037266761904761875
+lm_nc_gap_minilm_minus_tfidf,new,landmarker,minilm_lr,0.30987808283385937,0.3947258032589633
+cx_f1,new,complexidade,minilm_lr,0.0017897109388149905,-0.0012380352380952245
+cx_n1,new,complexidade,minilm_lr,0.001228572839522849,0.0008050342857143036
+cx_n2,new,complexidade,minilm_lr,0.006534835200958345,0.0014209663492063354
+cx_lsc,new,complexidade,minilm_lr,0.0014789755696323892,2.3326666666679377e-05
+cx_t2,new,complexidade,minilm_lr,8.156556087271703e-05,-7.500380952381036e-05
+cx_t3,new,complexidade,minilm_lr,0.008406083685314725,0.0006678901587301348
+cx_t4,new,complexidade,minilm_lr,0.00139929782455831,0.00102560190476189
+cx_density,new,complexidade,minilm_lr,0.0018991911289633547,-0.0006930819047618888
+cx_clscoef,new,complexidade,minilm_lr,0.0015074724250487247,-0.001913517777777774
+cx_hubs,new,complexidade,minilm_lr,0.00043023642964433624,-7.708571428571883e-05
+ih_kdn_minilm,new,dureza de instância,minilm_lr,0.001104651964591381,-0.0002221619047618946
+ih_kdn_hatebert,new,dureza de instância,minilm_lr,0.002799571315018546,0.0012715768253968186
+ih_kdn_mbert,new,dureza de instância,minilm_lr,0.004784769546079128,0.001162477777777777
+ih_kdn_tfidf,new,dureza de instância,minilm_lr,0.003980625050276629,0.0004047184126983993
+ih_hard_frac_minilm,new,dureza de instância,minilm_lr,0.0008510678230005082,9.79139682539969e-05
+ih_kdn_gap_tfidf_minus_minilm,new,dureza de instância,minilm_lr,0.005643078281879856,0.0030480965079365263
+mt_safe,new,tipologia de minoria,minilm_lr,0.0017578812070820327,-0.0012326457142857112
+mt_borderline,new,tipologia de minoria,minilm_lr,0.000980933958051062,-0.0006123758730158708
+mt_rare,new,tipologia de minoria,minilm_lr,0.003512922365070892,-0.0020505949206349023
+mt_outlier,new,tipologia de minoria,minilm_lr,0.0011081967372574483,-0.0010883422222222237
+mt_safe_tfidf,new,tipologia de minoria,minilm_lr,0.00587197247761313,0.00021802632034630676
+mt_outlier_tfidf,new,tipologia de minoria,minilm_lr,0.003220720766884351,-0.0004374428571428454
+lc_slope_minilm,new,curva de aprendizado,minilm_lr,0.0013262703109622508,-0.0010791168253968227
+lc_slope_tfidf,new,curva de aprendizado,minilm_lr,0.001480933813383807,-0.0007343612698412732
+lc_auc_gap_minilm_minus_tfidf,new,curva de aprendizado,minilm_lr,0.11926931916505483,0.029359010993451024
+n_instances,base,simples,minilm_mlp,0.00026940755792358704,2.8798095238095294e-05
+n_classes,base,simples,minilm_mlp,5.445295561173201e-06,-2.973333333344375e-06
+log_instances,base,simples,minilm_mlp,0.0002620400457903424,3.0843809523798164e-05
+instances_per_class,base,simples,minilm_mlp,0.0003653942318808207,-9.824000000001166e-05
+majority_pct,base,balanceamento,minilm_mlp,0.0005546678048230541,-9.738317460319346e-05
+minority_pct,base,balanceamento,minilm_mlp,0.0010576428380349744,2.3428571428634343e-06
+imbalance_ratio,base,balanceamento,minilm_mlp,0.0006328347480735925,0.0001163317460317215
+class_entropy,base,balanceamento,minilm_mlp,0.00041402812974945097,-0.00017297523809526536
+vocab_size,base,lexical,minilm_mlp,0.0024369220988914235,-0.0007109733333333522
+log_vocab_size,base,lexical,minilm_mlp,0.0021243472706191048,-0.00022398761904764134
+vocab_per_instance,base,lexical,minilm_mlp,0.00163207841046372,-0.00018459365079367718
+type_token_ratio,base,lexical,minilm_mlp,0.0027367140007923826,0.0010836618759018388
+hapax_ratio,base,lexical,minilm_mlp,0.0863565358259468,0.06109986834054829
+mean_doc_len_words,base,lexical,minilm_mlp,0.0013960471856644236,-0.0005281874458874883
+std_doc_len_words,base,lexical,minilm_mlp,0.002990941860002256,8.286730158727621e-05
+mean_doc_len_chars,base,lexical,minilm_mlp,0.0017799057983849495,-0.00016685206349208848
+mean_word_len,base,lexical,minilm_mlp,0.006111639471671633,-0.004747804935064962
+pct_docs_with_mention,base,redes sociais,minilm_mlp,0.006794677182041002,0.0019248571428571296
+mean_mentions_per_doc,base,redes sociais,minilm_mlp,0.0050060195684315115,-0.0014210791053391348
+pct_docs_with_url,base,redes sociais,minilm_mlp,0.00213686028266817,0.000663382222222201
+pct_docs_with_hashtag,base,redes sociais,minilm_mlp,0.002245393702500418,-0.0012900032323232425
+mean_hashtags_per_doc,base,redes sociais,minilm_mlp,0.0037999529683144006,-0.0012099784126984308
+pct_docs_with_emoji,base,redes sociais,minilm_mlp,0.003623065238340443,-0.002140777460317484
+uppercase_char_ratio,base,redes sociais,minilm_mlp,0.00887012385786081,0.00992814352092349
+exclamation_rate,base,redes sociais,minilm_mlp,0.007786522852802344,-0.0037127977777778043
+elongation_rate,base,redes sociais,minilm_mlp,0.0068836545454316845,-0.005497608051948088
+pct_docs_with_profanity,base,redes sociais,minilm_mlp,0.0409521990222898,0.012921828773448756
+profanity_token_rate,base,redes sociais,minilm_mlp,0.0426073066284002,0.013540420952380925
+mean_mutual_info,base,teoria da informação,minilm_mlp,0.0010450063872277464,-0.0003470333333333629
+max_mutual_info,base,teoria da informação,minilm_mlp,0.003511305258181828,0.00036490536796534754
+centroid_cosine_gap,base,separabilidade,minilm_mlp,0.018938489687648802,0.0007608961616161428
+knn1_disagreement,base,separabilidade,minilm_mlp,0.0015657825015764112,0.0007950244444444183
+silhouette_by_label,base,separabilidade,minilm_mlp,0.001002683688567679,-0.0008191019047619222
+is_english,base,metadados,minilm_mlp,0.04019442091840258,0.011076411746031717
+is_multilingual_row,base,metadados,minilm_mlp,0.04404265314630004,0.01198736349206348
+is_twitter,base,metadados,minilm_mlp,0.0007833145518718352,4.039999999998444e-05
+tok_fertility_hatebert,new,tokenização (domínio),minilm_mlp,0.1442308468793568,0.05583170479076477
+tok_continued_hatebert,new,tokenização (domínio),minilm_mlp,0.042856704718800466,0.011419731399711383
+tok_unk_hatebert,new,tokenização (domínio),minilm_mlp,0.011040172002035418,0.0007069463492063232
+tok_fertility_mbert,new,tokenização (domínio),minilm_mlp,0.00960624398049633,-0.0020429604040404182
+tok_continued_mbert,new,tokenização (domínio),minilm_mlp,0.18457916366641672,0.10329143922077919
+tok_unk_mbert,new,tokenização (domínio),minilm_mlp,0.0033125417198850045,-0.0014889984126984408
+tok_fertility_gap,new,tokenização (domínio),minilm_mlp,0.046418987712563795,0.011061761269841255
+hl_doc_rate,new,léxico de ódio (domínio),minilm_mlp,0.005173207212557521,0.0005288073015872797
+hl_token_rate,new,léxico de ódio (domínio),minilm_mlp,0.002334461682950042,0.0005959276190475888
+hl_class_gap,new,léxico de ódio (domínio),minilm_mlp,0.002870315196387106,0.0013614955555555158
+hl_category_entropy,new,léxico de ódio (domínio),minilm_mlp,0.0006106759513972174,-0.00026177936507939756
+ch_js_between_classes,new,dureza de corpus (domínio),minilm_mlp,0.003056810991992689,0.00018472285714282892
+ch_js_class_to_corpus,new,dureza de corpus (domínio),minilm_mlp,0.001053286448592883,-3.263492063493833e-05
+ch_vocab_jaccard,new,dureza de corpus (domínio),minilm_mlp,0.0012850017777853036,8.358952380949532e-05
+ch_zipf_slope,new,dureza de corpus (domínio),minilm_mlp,0.010816552245337927,0.0026283336219336028
+lm_stump_bow_f1,new,landmarker,minilm_mlp,0.003537655639134156,-0.001179373795093816
+lm_tree3_bow_f1,new,landmarker,minilm_mlp,0.001036819006810701,-0.0006331615873016122
+lm_nc_tfidf_f1,new,landmarker,minilm_mlp,0.0016205622768314186,0.00030018444444443535
+lm_nc_minilm_f1,new,landmarker,minilm_mlp,0.0006762235445996798,-0.0007184511111111291
+lm_nc_hatebert_f1,new,landmarker,minilm_mlp,0.002357740418676087,0.00048473873015869226
+lm_nc_gap_minilm_minus_tfidf,new,landmarker,minilm_mlp,0.0031444325977175182,6.49765079364852e-05
+cx_f1,new,complexidade,minilm_mlp,0.0017057030963704954,-0.001819417142857159
+cx_n1,new,complexidade,minilm_mlp,0.0013068882311832709,0.000426436507936478
+cx_n2,new,complexidade,minilm_mlp,0.0025967727412827477,0.0011641987301587158
+cx_lsc,new,complexidade,minilm_mlp,0.0010177936884883188,8.693125541123872e-05
+cx_t2,new,complexidade,minilm_mlp,0.00012841033117343682,1.1678095238086158e-05
+cx_t3,new,complexidade,minilm_mlp,0.0015435322874178098,0.00012171682539681905
+cx_t4,new,complexidade,minilm_mlp,0.0007279357987166011,0.0002888228571428288
+cx_density,new,complexidade,minilm_mlp,0.0009560475712095788,-0.0010233974603174954
+cx_clscoef,new,complexidade,minilm_mlp,0.0032025403092657777,-0.0014847422222222448
+cx_hubs,new,complexidade,minilm_mlp,0.0011339968707271527,-0.0005959752380952446
+ih_kdn_minilm,new,dureza de instância,minilm_mlp,0.0011447408451467848,0.00037056952380949904
+ih_kdn_hatebert,new,dureza de instância,minilm_mlp,0.0011278179912845312,-3.6469206349231795e-05
+ih_kdn_mbert,new,dureza de instância,minilm_mlp,0.0009570631062466639,1.3796825396817247e-06
+ih_kdn_tfidf,new,dureza de instância,minilm_mlp,0.0008760113865246243,-4.058095238117514e-06
+ih_hard_frac_minilm,new,dureza de instância,minilm_mlp,0.0014607962738410708,0.00019978793650791225
+ih_kdn_gap_tfidf_minus_minilm,new,dureza de instância,minilm_mlp,0.007268076201490297,0.0031998111111110976
+mt_safe,new,tipologia de minoria,minilm_mlp,0.0016829879497838522,-0.0012393857142857243
+mt_borderline,new,tipologia de minoria,minilm_mlp,0.0014888743302049353,-0.0018411679365079397
+mt_rare,new,tipologia de minoria,minilm_mlp,0.00287920703830791,9.149333333332294e-05
+mt_outlier,new,tipologia de minoria,minilm_mlp,0.001944072387353999,-0.0005567219047619206
+mt_safe_tfidf,new,tipologia de minoria,minilm_mlp,0.004919846175993434,-0.0010929111976912122
+mt_outlier_tfidf,new,tipologia de minoria,minilm_mlp,0.0012396720687612966,-0.0007613692063492413
+lc_slope_minilm,new,curva de aprendizado,minilm_mlp,0.0038783891426862373,-0.00030420698412701047
+lc_slope_tfidf,new,curva de aprendizado,minilm_mlp,0.005745062324225279,0.004897224126984103
+lc_auc_gap_minilm_minus_tfidf,new,curva de aprendizado,minilm_mlp,0.11453333161885774,0.02197303746031744
+n_instances,base,simples,hatebert_lr,0.0014396035658453606,0.0008160799999999897
+n_classes,base,simples,hatebert_lr,2.062063066487502e-05,-5.738666666666914e-05
+log_instances,base,simples,hatebert_lr,0.0009335401964376252,0.0010918120634920627
+instances_per_class,base,simples,hatebert_lr,0.0013918553267416105,0.0009783139682539579
+majority_pct,base,balanceamento,hatebert_lr,0.007343550165283016,0.0012338428571428378
+minority_pct,base,balanceamento,hatebert_lr,0.0038039467641300894,-0.0018091466666667153
+imbalance_ratio,base,balanceamento,hatebert_lr,0.017726479755115408,0.003572518181818145
+class_entropy,base,balanceamento,hatebert_lr,0.0020207344008124134,0.00020565841269842584
+vocab_size,base,lexical,hatebert_lr,0.011299602168414514,0.008110765396825379
+log_vocab_size,base,lexical,hatebert_lr,0.010655508777064627,0.008375306349206342
+vocab_per_instance,base,lexical,hatebert_lr,0.012467285689387035,0.007922708571428565
+type_token_ratio,base,lexical,hatebert_lr,0.003286769464888646,0.001020079999999976
+hapax_ratio,base,lexical,hatebert_lr,0.007371881591712331,-0.0015342968253968408
+mean_doc_len_words,base,lexical,hatebert_lr,0.0029448678005404086,-0.00262225365079372
+std_doc_len_words,base,lexical,hatebert_lr,0.006329132953653306,-0.00102678634920638
+mean_doc_len_chars,base,lexical,hatebert_lr,0.0029734356808436627,-0.0020691742857143246
+mean_word_len,base,lexical,hatebert_lr,0.003909400652632228,-0.00044829555555558117
+pct_docs_with_mention,base,redes sociais,hatebert_lr,0.04011450270127153,0.011612371313131337
+mean_mentions_per_doc,base,redes sociais,hatebert_lr,0.009093814756987385,0.0010301380952380994
+pct_docs_with_url,base,redes sociais,hatebert_lr,0.0013360644117936579,-0.0002241777777777787
+pct_docs_with_hashtag,base,redes sociais,hatebert_lr,0.00961093861899866,0.0002831441269840988
+mean_hashtags_per_doc,base,redes sociais,hatebert_lr,0.01937036628296585,0.0036605937662337745
+pct_docs_with_emoji,base,redes sociais,hatebert_lr,0.027309364395602036,0.00933197235209237
+uppercase_char_ratio,base,redes sociais,hatebert_lr,0.0012520985749175156,-0.0004701492063492325
+exclamation_rate,base,redes sociais,hatebert_lr,0.0062963599864732794,-0.0009100854545454607
+elongation_rate,base,redes sociais,hatebert_lr,0.0026646788256115017,-0.0018265514285714748
+pct_docs_with_profanity,base,redes sociais,hatebert_lr,0.0035346788690840494,-0.0010448717171717338
+profanity_token_rate,base,redes sociais,hatebert_lr,0.004576680542305788,0.00031914940836938043
+mean_mutual_info,base,teoria da informação,hatebert_lr,0.007758394442708834,0.0037029317460317056
+max_mutual_info,base,teoria da informação,hatebert_lr,0.0057325117150274245,-0.0022588673015873036
+centroid_cosine_gap,base,separabilidade,hatebert_lr,0.0205120083766128,-0.0027543409523809693
+knn1_disagreement,base,separabilidade,hatebert_lr,0.004136881452259751,0.0003568227994227935
+silhouette_by_label,base,separabilidade,hatebert_lr,0.012581038118570984,0.0037310133044732843
+is_english,base,metadados,hatebert_lr,0.00045362230218792533,-0.0002584552380952223
+is_multilingual_row,base,metadados,hatebert_lr,0.00034955106944505244,-0.00016056380952377848
+is_twitter,base,metadados,hatebert_lr,0.0003254918506713571,-0.00022244761904762368
+tok_fertility_hatebert,new,tokenização (domínio),hatebert_lr,0.022899517551877274,0.004167798095238068
+tok_continued_hatebert,new,tokenização (domínio),hatebert_lr,0.03364272699760893,-0.004281195238095272
+tok_unk_hatebert,new,tokenização (domínio),hatebert_lr,0.0352213590087182,0.003973379047619027
+tok_fertility_mbert,new,tokenização (domínio),hatebert_lr,0.0031236601240165964,-0.0007800438095238295
+tok_continued_mbert,new,tokenização (domínio),hatebert_lr,0.0403169360179136,-0.001995565194805232
+tok_unk_mbert,new,tokenização (domínio),hatebert_lr,0.011190406005871102,-0.0029770104761904746
+tok_fertility_gap,new,tokenização (domínio),hatebert_lr,0.031082492487014272,-0.002261400634920645
+hl_doc_rate,new,léxico de ódio (domínio),hatebert_lr,0.004790454500863182,-0.00038716380952380904
+hl_token_rate,new,léxico de ódio (domínio),hatebert_lr,0.005424162242195123,-0.0016049660317460149
+hl_class_gap,new,léxico de ódio (domínio),hatebert_lr,0.006326440408979395,-0.0020405053968254074
+hl_category_entropy,new,léxico de ódio (domínio),hatebert_lr,0.004276870849031557,-0.002776970793650814
+ch_js_between_classes,new,dureza de corpus (domínio),hatebert_lr,0.002217763813560536,-0.0006457130158730267
+ch_js_class_to_corpus,new,dureza de corpus (domínio),hatebert_lr,0.002160239567782068,-0.000307985079365122
+ch_vocab_jaccard,new,dureza de corpus (domínio),hatebert_lr,0.014640750979792061,0.004510923492063487
+ch_zipf_slope,new,dureza de corpus (domínio),hatebert_lr,0.006225895251185444,-0.0018624342857142908
+lm_stump_bow_f1,new,landmarker,hatebert_lr,0.0022964807887821343,-0.0002451126984127315
+lm_tree3_bow_f1,new,landmarker,hatebert_lr,0.004788930815217056,-0.0008055000577200181
+lm_nc_tfidf_f1,new,landmarker,hatebert_lr,0.008393822719133316,0.0038217453968253947
+lm_nc_minilm_f1,new,landmarker,hatebert_lr,0.004184112258597489,-3.6865079365067544e-05
+lm_nc_hatebert_f1,new,landmarker,hatebert_lr,0.0033896250631544945,-0.0015454015873015835
+lm_nc_gap_minilm_minus_tfidf,new,landmarker,hatebert_lr,0.02505252287826624,0.01053539924963923
+cx_f1,new,complexidade,hatebert_lr,0.004031370052901004,4.165047619045981e-05
+cx_n1,new,complexidade,hatebert_lr,0.002802791284030231,-0.0016952990476190749
+cx_n2,new,complexidade,hatebert_lr,0.005397648542312376,0.00044835682539676614
+cx_lsc,new,complexidade,hatebert_lr,0.028991603908119466,0.010540455122655093
+cx_t2,new,complexidade,hatebert_lr,0.0014518635706738073,0.0014142723809523715
+cx_t3,new,complexidade,hatebert_lr,0.05546665231165123,0.005598930793650794
+cx_t4,new,complexidade,hatebert_lr,0.011185737049316734,0.009594572063492002
+cx_density,new,complexidade,hatebert_lr,0.023576494621280204,0.006145248888888832
+cx_clscoef,new,complexidade,hatebert_lr,0.004461565188181674,-0.00036692089466088706
+cx_hubs,new,complexidade,hatebert_lr,0.01614598850074192,0.0014448438095237826
+ih_kdn_minilm,new,dureza de instância,hatebert_lr,0.0027394733331866693,0.0001771793650793585
+ih_kdn_hatebert,new,dureza de instância,hatebert_lr,0.006372835799929826,0.0007751568253967857
+ih_kdn_mbert,new,dureza de instância,hatebert_lr,0.0023393971023421187,-0.0004926320634920542
+ih_kdn_tfidf,new,dureza de instância,hatebert_lr,0.004167233221960157,0.0008458155555555117
+ih_hard_frac_minilm,new,dureza de instância,hatebert_lr,0.009045503981540146,0.002526859682539655
+ih_kdn_gap_tfidf_minus_minilm,new,dureza de instância,hatebert_lr,0.003509141095123818,-0.0001241057142857149
+mt_safe,new,tipologia de minoria,hatebert_lr,0.0028071060193961693,0.0012062203174602818
+mt_borderline,new,tipologia de minoria,hatebert_lr,0.0021847922759365085,0.00010274031746029298
+mt_rare,new,tipologia de minoria,hatebert_lr,0.0020597789007704144,0.0003669901587301316
+mt_outlier,new,tipologia de minoria,hatebert_lr,0.0018523757694501358,-7.96936507937009e-05
+mt_safe_tfidf,new,tipologia de minoria,hatebert_lr,0.09866185021229332,0.03178041746031747
+mt_outlier_tfidf,new,tipologia de minoria,hatebert_lr,0.029442693024137705,0.008197987272727292
+lc_slope_minilm,new,curva de aprendizado,hatebert_lr,0.014448635502066376,0.0007054580952380688
+lc_slope_tfidf,new,curva de aprendizado,hatebert_lr,0.014096719746131334,0.010807766984126924
+lc_auc_gap_minilm_minus_tfidf,new,curva de aprendizado,hatebert_lr,0.10818831577930406,0.006765625627705702
+n_instances,base,simples,mbert_lr,0.0002791320693207483,-0.0002103466666666765
+n_classes,base,simples,mbert_lr,0.00021775558627489975,8.879999999991562e-06
+log_instances,base,simples,mbert_lr,0.00024420272458644044,-0.00022595999999999792
+instances_per_class,base,simples,mbert_lr,0.0004742477131289743,-0.00018111142857144452
+majority_pct,base,balanceamento,mbert_lr,0.013115510790909635,0.0033747282539682124
+minority_pct,base,balanceamento,mbert_lr,0.0030777645682322544,-0.0007106374603175238
+imbalance_ratio,base,balanceamento,mbert_lr,0.008071890591904638,0.00045584190476187557
+class_entropy,base,balanceamento,mbert_lr,0.03368710171544717,0.005194775873015823
+vocab_size,base,lexical,mbert_lr,0.00531256269429923,0.00019138031746028893
+log_vocab_size,base,lexical,mbert_lr,0.0049398816236701296,0.0002523244444444112
+vocab_per_instance,base,lexical,mbert_lr,0.002466845133392975,-0.0006751546031746827
+type_token_ratio,base,lexical,mbert_lr,0.006940355443080104,-0.0021351812698413245
+hapax_ratio,base,lexical,mbert_lr,0.0075092423012694,-0.0011696663492063771
+mean_doc_len_words,base,lexical,mbert_lr,0.001296568112536477,-0.0004918590476190747
+std_doc_len_words,base,lexical,mbert_lr,0.0040326320314146395,-0.0002143006349206558
+mean_doc_len_chars,base,lexical,mbert_lr,0.0012503098322389392,-0.0005044965079365098
+mean_word_len,base,lexical,mbert_lr,0.004929948672565925,-0.0008814533333333606
+pct_docs_with_mention,base,redes sociais,mbert_lr,0.0405426966512212,0.00822946603174595
+mean_mentions_per_doc,base,redes sociais,mbert_lr,0.017567361920924434,0.003864768253968199
+pct_docs_with_url,base,redes sociais,mbert_lr,0.0027629058652408147,-0.0012679666666666727
+pct_docs_with_hashtag,base,redes sociais,mbert_lr,0.004206228793828834,-0.0004192006349206628
+mean_hashtags_per_doc,base,redes sociais,mbert_lr,0.0036504512921026024,-0.0005301561904762245
+pct_docs_with_emoji,base,redes sociais,mbert_lr,0.0038314966888512887,-0.002406108253968308
+uppercase_char_ratio,base,redes sociais,mbert_lr,0.005827901890094233,-0.0014834326984127116
+exclamation_rate,base,redes sociais,mbert_lr,0.00253941697078681,-0.0015696561904762064
+elongation_rate,base,redes sociais,mbert_lr,0.004472313168033618,-0.0029630752380952743
+pct_docs_with_profanity,base,redes sociais,mbert_lr,0.004099809824080437,0.0005515758730158432
+profanity_token_rate,base,redes sociais,mbert_lr,0.0020698387324655735,0.0001913466666666545
+mean_mutual_info,base,teoria da informação,mbert_lr,0.016544343983535846,0.006740211284271232
+max_mutual_info,base,teoria da informação,mbert_lr,0.016275373240832648,0.011459678961038907
+centroid_cosine_gap,base,separabilidade,mbert_lr,0.0048809288286493415,-0.0002608142857143156
+knn1_disagreement,base,separabilidade,mbert_lr,0.007864841399260579,0.0018080425396824764
+silhouette_by_label,base,separabilidade,mbert_lr,0.0034876308082019214,-0.001056215238095259
+is_english,base,metadados,mbert_lr,3.229933857734571e-05,-4.980000000002783e-05
+is_multilingual_row,base,metadados,mbert_lr,0.00017939959961977599,-1.4375238095276188e-05
+is_twitter,base,metadados,mbert_lr,0.0007033718481317436,-0.00010107333333335866
+tok_fertility_hatebert,new,tokenização (domínio),mbert_lr,0.012243145343053997,0.002216420952380925
+tok_continued_hatebert,new,tokenização (domínio),mbert_lr,0.01571328142436087,0.0034848171428571084
+tok_unk_hatebert,new,tokenização (domínio),mbert_lr,0.005952027013601957,-0.002061865714285771
+tok_fertility_mbert,new,tokenização (domínio),mbert_lr,0.014065695735595624,0.0033838615873015105
+tok_continued_mbert,new,tokenização (domínio),mbert_lr,0.008906067468932407,0.0033980514285713824
+tok_unk_mbert,new,tokenização (domínio),mbert_lr,0.002372338795771276,0.0008267006349206077
+tok_fertility_gap,new,tokenização (domínio),mbert_lr,0.005738942843656609,-0.0008661438095238303
+hl_doc_rate,new,léxico de ódio (domínio),mbert_lr,0.014308754221972983,0.003470253015873006
+hl_token_rate,new,léxico de ódio (domínio),mbert_lr,0.003031877111867389,-0.0006804469841270256
+hl_class_gap,new,léxico de ódio (domínio),mbert_lr,0.005118837312352616,0.0001892333333333096
+hl_category_entropy,new,léxico de ódio (domínio),mbert_lr,0.0044391061229686985,-0.002540703809523845
+ch_js_between_classes,new,dureza de corpus (domínio),mbert_lr,0.0035600355554169976,8.925365079363267e-05
+ch_js_class_to_corpus,new,dureza de corpus (domínio),mbert_lr,0.0027033680345904853,-0.0013346866666667067
+ch_vocab_jaccard,new,dureza de corpus (domínio),mbert_lr,0.003276396780489926,0.0007010142857142701
+ch_zipf_slope,new,dureza de corpus (domínio),mbert_lr,0.0045146634388318575,-0.00394663968253968
+lm_stump_bow_f1,new,landmarker,mbert_lr,0.005361108618830941,0.000493033650793627
+lm_tree3_bow_f1,new,landmarker,mbert_lr,0.003315676914230399,-0.0017444114285714543
+lm_nc_tfidf_f1,new,landmarker,mbert_lr,0.006801958324696237,0.0007178903607503239
+lm_nc_minilm_f1,new,landmarker,mbert_lr,0.0017755725555996214,0.00028053111111106906
+lm_nc_hatebert_f1,new,landmarker,mbert_lr,0.004467792348387052,3.852920634918226e-05
+lm_nc_gap_minilm_minus_tfidf,new,landmarker,mbert_lr,0.08696708636851287,0.041431558730158684
+cx_f1,new,complexidade,mbert_lr,0.005709227148221951,0.0038365161904761274
+cx_n1,new,complexidade,mbert_lr,0.00783428069848698,0.0021719269841268913
+cx_n2,new,complexidade,mbert_lr,0.012340663612889184,0.00387513999999997
+cx_lsc,new,complexidade,mbert_lr,0.00930364738088769,-0.0013738923809524166
+cx_t2,new,complexidade,mbert_lr,0.00018145061046429103,-0.000323784761904768
+cx_t3,new,complexidade,mbert_lr,0.003973537296716701,0.00147666793650791
+cx_t4,new,complexidade,mbert_lr,0.04742690063589998,0.007651085079365028
+cx_density,new,complexidade,mbert_lr,0.02117995861385632,0.00438767587301578
+cx_clscoef,new,complexidade,mbert_lr,0.004707754966011157,0.001836241269841227
+cx_hubs,new,complexidade,mbert_lr,0.02608803785113421,0.003189746031745949
+ih_kdn_minilm,new,dureza de instância,mbert_lr,0.004189860666506033,0.0006972517460316765
+ih_kdn_hatebert,new,dureza de instância,mbert_lr,0.05952196139592203,0.009046241529581493
+ih_kdn_mbert,new,dureza de instância,mbert_lr,0.09202316809050179,0.028962756825396768
+ih_kdn_tfidf,new,dureza de instância,mbert_lr,0.014227359885807988,0.000768960577200539
+ih_hard_frac_minilm,new,dureza de instância,mbert_lr,0.0443264386238734,0.01391130969696965
+ih_kdn_gap_tfidf_minus_minilm,new,dureza de instância,mbert_lr,0.005466609727336397,0.00013045142857137925
+mt_safe,new,tipologia de minoria,mbert_lr,0.0015544434968751207,-0.000283166349206355
+mt_borderline,new,tipologia de minoria,mbert_lr,0.007172997484539414,-0.0011096542857142793
+mt_rare,new,tipologia de minoria,mbert_lr,0.0012429165700309178,-0.00012140825396829411
+mt_outlier,new,tipologia de minoria,mbert_lr,0.002924881112195401,-0.0005672749206349782
+mt_safe_tfidf,new,tipologia de minoria,mbert_lr,0.05690001822516699,0.026888918845598804
+mt_outlier_tfidf,new,tipologia de minoria,mbert_lr,0.059331394325847706,0.02341895301587293
+lc_slope_minilm,new,curva de aprendizado,mbert_lr,0.013992137569602566,0.008843844444444427
+lc_slope_tfidf,new,curva de aprendizado,mbert_lr,0.002993881177926945,-0.0014028298412699061
+lc_auc_gap_minilm_minus_tfidf,new,curva de aprendizado,mbert_lr,0.04136817805086649,0.022253542568542516
+n_instances,base,simples,best_f1,5.2677573075503986e-05,2.465061261749515e-06
+n_classes,base,simples,best_f1,0.001749176800437283,6.7249129265814825e-06
+log_instances,base,simples,best_f1,5.0928609764744825e-05,-3.920121198018042e-07
+instances_per_class,base,simples,best_f1,0.0032845281098144697,-7.387040144531121e-06
+majority_pct,base,balanceamento,best_f1,0.0018600307076830406,-4.329552885493417e-06
+minority_pct,base,balanceamento,best_f1,0.0005010947306426307,4.500240184307959e-06
+imbalance_ratio,base,balanceamento,best_f1,0.00042422250529555234,5.288738077873751e-06
+class_entropy,base,balanceamento,best_f1,0.003694546236698404,-9.728036199043609e-06
+vocab_size,base,lexical,best_f1,0.008968261384661206,0.0003120060504374907
+log_vocab_size,base,lexical,best_f1,0.009949678568823709,0.00026874866907274547
+vocab_per_instance,base,lexical,best_f1,0.0012757384625630996,1.3219646369215992e-05
+type_token_ratio,base,lexical,best_f1,0.003197898211008092,5.342041633975243e-05
+hapax_ratio,base,lexical,best_f1,0.0006348810636539979,1.1731384876523103e-05
+mean_doc_len_words,base,lexical,best_f1,0.0007087590292228974,2.057602422523313e-06
+std_doc_len_words,base,lexical,best_f1,0.0017454484437535334,5.473686814310444e-06
+mean_doc_len_chars,base,lexical,best_f1,0.0007889296803793577,9.158015622266728e-06
+mean_word_len,base,lexical,best_f1,0.0009224069320618271,-3.2039900584747707e-06
+pct_docs_with_mention,base,redes sociais,best_f1,0.0039820361276068405,3.195872076503557e-05
+mean_mentions_per_doc,base,redes sociais,best_f1,0.00375675985615056,4.9366827958460033e-05
+pct_docs_with_url,base,redes sociais,best_f1,0.0022726172174839464,8.124501954968675e-05
+pct_docs_with_hashtag,base,redes sociais,best_f1,0.0015395986018892445,0.0001273322339698232
+mean_hashtags_per_doc,base,redes sociais,best_f1,0.002057804566059398,0.00017929619709224185
+pct_docs_with_emoji,base,redes sociais,best_f1,0.00381071721141881,8.540016314700979e-05
+uppercase_char_ratio,base,redes sociais,best_f1,0.0011438778781144503,2.8816194341560604e-06
+exclamation_rate,base,redes sociais,best_f1,0.0007719025352493755,-1.666991579625726e-05
+elongation_rate,base,redes sociais,best_f1,0.0007433534733659911,-2.2584820354168134e-05
+pct_docs_with_profanity,base,redes sociais,best_f1,0.006168913594906746,0.00013375812465457078
+profanity_token_rate,base,redes sociais,best_f1,0.0030540279205790066,6.14718758654342e-05
+mean_mutual_info,base,teoria da informação,best_f1,0.004660196803635739,3.7306326333449776e-05
+max_mutual_info,base,teoria da informação,best_f1,0.012764366485493988,0.00031037800742536104
+centroid_cosine_gap,base,separabilidade,best_f1,0.004496347114017565,8.565566784521245e-05
+knn1_disagreement,base,separabilidade,best_f1,0.025144506928866734,0.0005892766634476413
+silhouette_by_label,base,separabilidade,best_f1,0.007251864181901725,0.00017202386968837426
+is_english,base,metadados,best_f1,0.00024368912413403688,2.9899619020430787e-06
+is_multilingual_row,base,metadados,best_f1,0.0002484812311265626,4.819518448354543e-06
+is_twitter,base,metadados,best_f1,8.274506696241511e-05,3.2966232082683458e-06
+tok_fertility_hatebert,new,tokenização (domínio),best_f1,0.0007468364245366409,7.298405736119797e-06
+tok_continued_hatebert,new,tokenização (domínio),best_f1,0.0005316639607437747,1.923627680584361e-05
+tok_unk_hatebert,new,tokenização (domínio),best_f1,0.005185265499468947,0.00012403139898166328
+tok_fertility_mbert,new,tokenização (domínio),best_f1,0.0004648327174284092,4.699652470718948e-06
+tok_continued_mbert,new,tokenização (domínio),best_f1,0.0005027967696745409,-5.822032922242995e-06
+tok_unk_mbert,new,tokenização (domínio),best_f1,0.0008883709339310545,7.220348556031275e-07
+tok_fertility_gap,new,tokenização (domínio),best_f1,0.003046608958256954,4.5756296802799597e-07
+hl_doc_rate,new,léxico de ódio (domínio),best_f1,0.0008872169650603374,-1.91867090045741e-05
+hl_token_rate,new,léxico de ódio (domínio),best_f1,0.0017417156245379394,-1.8227199384843173e-05
+hl_class_gap,new,léxico de ódio (domínio),best_f1,0.0017126124555491967,-7.067117553815285e-05
+hl_category_entropy,new,léxico de ódio (domínio),best_f1,0.0005105661152277934,-6.799317429037186e-07
+ch_js_between_classes,new,dureza de corpus (domínio),best_f1,0.006463618210855479,0.00020160363832168936
+ch_js_class_to_corpus,new,dureza de corpus (domínio),best_f1,0.001919353585755891,4.675517557172944e-05
+ch_vocab_jaccard,new,dureza de corpus (domínio),best_f1,0.0012766877121256005,1.9926512569087467e-05
+ch_zipf_slope,new,dureza de corpus (domínio),best_f1,0.005582239936175766,0.00026392464099738567
+lm_stump_bow_f1,new,landmarker,best_f1,0.006280153379735723,8.792463744698603e-05
+lm_tree3_bow_f1,new,landmarker,best_f1,0.012413101517542477,0.0001007830876832285
+lm_nc_tfidf_f1,new,landmarker,best_f1,0.25691320286214,0.01111043600262163
+lm_nc_minilm_f1,new,landmarker,best_f1,0.16030019734706,0.003886597941771886
+lm_nc_hatebert_f1,new,landmarker,best_f1,0.06646515190223361,0.0017053057196248166
+lm_nc_gap_minilm_minus_tfidf,new,landmarker,best_f1,0.006836145843850941,9.65912804270788e-05
+cx_f1,new,complexidade,best_f1,0.0055920402925055184,-7.133955149563393e-05
+cx_n1,new,complexidade,best_f1,0.015617849369496778,0.00040285476695352057
+cx_n2,new,complexidade,best_f1,0.057693000427272934,0.0011422814259522524
+cx_lsc,new,complexidade,best_f1,0.0031578686135830688,0.00010498055983274302
+cx_t2,new,complexidade,best_f1,0.00012698402085089874,3.0919000380073416e-06
+cx_t3,new,complexidade,best_f1,0.0014673899769840463,9.675156350341401e-05
+cx_t4,new,complexidade,best_f1,0.013676749853001107,0.0004971713693943979
+cx_density,new,complexidade,best_f1,0.005341773077745767,5.285229953760996e-05
+cx_clscoef,new,complexidade,best_f1,0.000978600608886414,1.5260515761602077e-05
+cx_hubs,new,complexidade,best_f1,0.001910651209414805,2.3801538563967814e-05
+ih_kdn_minilm,new,dureza de instância,best_f1,0.015899974104106658,0.0002759421131096271
+ih_kdn_hatebert,new,dureza de instância,best_f1,0.01856614008036723,0.0005152394037221952
+ih_kdn_mbert,new,dureza de instância,best_f1,0.011787629771198127,2.386574778145939e-05
+ih_kdn_tfidf,new,dureza de instância,best_f1,0.01266710568019087,0.00011413519062362732
+ih_hard_frac_minilm,new,dureza de instância,best_f1,0.018006273024317596,0.0005272594917533757
+ih_kdn_gap_tfidf_minus_minilm,new,dureza de instância,best_f1,0.007517422101231519,3.426078011216202e-05
+mt_safe,new,tipologia de minoria,best_f1,0.04046036970484028,0.0016483700336465926
+mt_borderline,new,tipologia de minoria,best_f1,0.03602005973933511,0.0007109374930374423
+mt_rare,new,tipologia de minoria,best_f1,0.01098283124321126,0.0005399426057048089
+mt_outlier,new,tipologia de minoria,best_f1,0.000652923220272868,2.8730709264238915e-05
+mt_safe_tfidf,new,tipologia de minoria,best_f1,0.0016997605040320845,1.8824918675361208e-05
+mt_outlier_tfidf,new,tipologia de minoria,best_f1,0.001061441678102615,-5.99622409573583e-06
+lc_slope_minilm,new,curva de aprendizado,best_f1,0.0009289190206238524,-1.496631139192979e-05
+lc_slope_tfidf,new,curva de aprendizado,best_f1,0.015316805690544066,0.00031713323711005976
+lc_auc_gap_minilm_minus_tfidf,new,curva de aprendizado,best_f1,0.038198085297491045,0.0005538064657945453
+n_instances,base,simples,paradigm_gap,0.07561710684015607,0.00015282594974724793
+n_classes,base,simples,paradigm_gap,6.0469674134662435e-06,3.7247093539188864e-07
+log_instances,base,simples,paradigm_gap,0.07099619354254554,0.0001207442923941688
+instances_per_class,base,simples,paradigm_gap,0.07480343082819688,-1.0389303180183607e-05
+majority_pct,base,balanceamento,paradigm_gap,0.0002203467624755334,-6.922446766589999e-06
+minority_pct,base,balanceamento,paradigm_gap,0.00034758142018555423,-1.4606762175350674e-06
+imbalance_ratio,base,balanceamento,paradigm_gap,0.0004385208031884847,-1.1571686386915158e-05
+class_entropy,base,balanceamento,paradigm_gap,0.0003495785293066507,-1.2030937213692438e-05
+vocab_size,base,lexical,paradigm_gap,0.020130718390378853,-0.0002263281696988135
+log_vocab_size,base,lexical,paradigm_gap,0.021237214396812802,-0.0002471050091051219
+vocab_per_instance,base,lexical,paradigm_gap,0.002221300076249876,-1.195309992349059e-05
+type_token_ratio,base,lexical,paradigm_gap,0.07209764331718767,0.0012608070258225133
+hapax_ratio,base,lexical,paradigm_gap,0.0071126469574121585,6.054925765457192e-05
+mean_doc_len_words,base,lexical,paradigm_gap,0.0004375378078850177,-8.03215739953854e-06
+std_doc_len_words,base,lexical,paradigm_gap,0.006835822024564936,-2.8704285802940875e-05
+mean_doc_len_chars,base,lexical,paradigm_gap,0.0005579485050618966,4.055280123216417e-06
+mean_word_len,base,lexical,paradigm_gap,0.0009940423243638423,-2.4758131145388734e-05
+pct_docs_with_mention,base,redes sociais,paradigm_gap,0.0030674533151248753,6.425838060411206e-05
+mean_mentions_per_doc,base,redes sociais,paradigm_gap,0.0007302021320357288,6.574591890458301e-06
+pct_docs_with_url,base,redes sociais,paradigm_gap,0.0009647717910953049,1.129474514368893e-05
+pct_docs_with_hashtag,base,redes sociais,paradigm_gap,0.0013620583056983362,9.467863574840224e-06
+mean_hashtags_per_doc,base,redes sociais,paradigm_gap,0.0014613918445336082,-2.427010605463733e-05
+pct_docs_with_emoji,base,redes sociais,paradigm_gap,0.0009687035848114298,-7.644612324892857e-06
+uppercase_char_ratio,base,redes sociais,paradigm_gap,0.005352737396671611,3.734369540312378e-05
+exclamation_rate,base,redes sociais,paradigm_gap,0.0003935060767387845,-5.431988133568676e-06
+elongation_rate,base,redes sociais,paradigm_gap,0.0015043429538604853,2.3124574831799457e-05
+pct_docs_with_profanity,base,redes sociais,paradigm_gap,0.006834290638683881,0.00011604395517575702
+profanity_token_rate,base,redes sociais,paradigm_gap,0.007196150049853416,0.00013529578608184966
+mean_mutual_info,base,teoria da informação,paradigm_gap,0.02762845242213253,-9.998420613017319e-05
+max_mutual_info,base,teoria da informação,paradigm_gap,0.0037539626000078928,-1.5567183490972296e-05
+centroid_cosine_gap,base,separabilidade,paradigm_gap,0.002583336933265098,-4.834353790070203e-05
+knn1_disagreement,base,separabilidade,paradigm_gap,0.0033545968894913973,-8.148363828482366e-05
+silhouette_by_label,base,separabilidade,paradigm_gap,0.0008988611910964669,-2.3844395557438615e-05
+is_english,base,metadados,paradigm_gap,0.00729275183465884,9.127788474340693e-05
+is_multilingual_row,base,metadados,paradigm_gap,0.005561320685418789,0.00010310366441514343
+is_twitter,base,metadados,paradigm_gap,3.680258956348686e-05,-1.6879588018567164e-06
+tok_fertility_hatebert,new,tokenização (domínio),paradigm_gap,0.194288670993272,0.003519774616825999
+tok_continued_hatebert,new,tokenização (domínio),paradigm_gap,0.03095386348929735,0.0003266249102553215
+tok_unk_hatebert,new,tokenização (domínio),paradigm_gap,0.0016505973509953818,4.381163482832316e-06
+tok_fertility_mbert,new,tokenização (domínio),paradigm_gap,0.00350609543461693,-3.321591435903429e-05
+tok_continued_mbert,new,tokenização (domínio),paradigm_gap,0.02451821025168052,0.000214281800105968
+tok_unk_mbert,new,tokenização (domínio),paradigm_gap,0.0009269199783853632,-2.8333582517083826e-05
+tok_fertility_gap,new,tokenização (domínio),paradigm_gap,0.011939338287906841,7.12748235033325e-05
+hl_doc_rate,new,léxico de ódio (domínio),paradigm_gap,0.0012231087630493935,1.9392357983986343e-05
+hl_token_rate,new,léxico de ódio (domínio),paradigm_gap,0.009789435605676994,0.0003144514113188229
+hl_class_gap,new,léxico de ódio (domínio),paradigm_gap,0.001218655318482162,-2.052116590212482e-05
+hl_category_entropy,new,léxico de ódio (domínio),paradigm_gap,0.001827339472309532,-7.010355143050941e-06
+ch_js_between_classes,new,dureza de corpus (domínio),paradigm_gap,0.0021378991629515936,-1.7697009933139042e-05
+ch_js_class_to_corpus,new,dureza de corpus (domínio),paradigm_gap,0.0015500698151422827,-1.293199391535562e-05
+ch_vocab_jaccard,new,dureza de corpus (domínio),paradigm_gap,0.0016580601257575353,-1.9853721897521084e-06
+ch_zipf_slope,new,dureza de corpus (domínio),paradigm_gap,0.0010745307106142432,2.5958355993903203e-06
+lm_stump_bow_f1,new,landmarker,paradigm_gap,0.0019429259077799739,-2.1082019014637113e-05
+lm_tree3_bow_f1,new,landmarker,paradigm_gap,0.002379993758957615,4.949438381361765e-06
+lm_nc_tfidf_f1,new,landmarker,paradigm_gap,0.002328269152245612,4.840599241864012e-05
+lm_nc_minilm_f1,new,landmarker,paradigm_gap,0.0021521711955552743,-6.406373894081677e-05
+lm_nc_hatebert_f1,new,landmarker,paradigm_gap,0.002699771607282434,-2.1942459570839918e-05
+lm_nc_gap_minilm_minus_tfidf,new,landmarker,paradigm_gap,0.020634725237004124,0.0003362322539419495
+cx_f1,new,complexidade,paradigm_gap,0.0030546695454643294,5.045912711948026e-05
+cx_n1,new,complexidade,paradigm_gap,0.002030828127827479,-5.796700974698269e-05
+cx_n2,new,complexidade,paradigm_gap,0.0005165987188651402,-3.475765777885262e-05
+cx_lsc,new,complexidade,paradigm_gap,0.016906942361414535,-0.00011892371328861522
+cx_t2,new,complexidade,paradigm_gap,0.07207270799177568,0.00013498054085503238
+cx_t3,new,complexidade,paradigm_gap,0.07929000665141003,0.00041706372781694106
+cx_t4,new,complexidade,paradigm_gap,0.01643517210341318,-5.3205481079666226e-05
+cx_density,new,complexidade,paradigm_gap,0.0014601006236925334,-1.921190840875952e-05
+cx_clscoef,new,complexidade,paradigm_gap,0.0018998409707331073,-1.496841901863357e-05
+cx_hubs,new,complexidade,paradigm_gap,0.008579995542257425,-0.00011318862004709093
+ih_kdn_minilm,new,dureza de instância,paradigm_gap,0.0015945345775717605,-1.7295749701058245e-05
+ih_kdn_hatebert,new,dureza de instância,paradigm_gap,0.0006673025150123627,-9.86985603986656e-06
+ih_kdn_mbert,new,dureza de instância,paradigm_gap,0.00021792839927413485,-1.0129400342561393e-05
+ih_kdn_tfidf,new,dureza de instância,paradigm_gap,0.0009367564038017898,1.3159158641704257e-05
+ih_hard_frac_minilm,new,dureza de instância,paradigm_gap,0.003417623156611508,-5.9141904414829203e-05
+ih_kdn_gap_tfidf_minus_minilm,new,dureza de instância,paradigm_gap,0.00465891270765817,7.724234768736535e-05
+mt_safe,new,tipologia de minoria,paradigm_gap,0.0015859857634841976,-5.0605671937419484e-05
+mt_borderline,new,tipologia de minoria,paradigm_gap,0.001190657242271876,-1.596031701636895e-05
+mt_rare,new,tipologia de minoria,paradigm_gap,0.002146608056367117,-8.437451560559369e-05
+mt_outlier,new,tipologia de minoria,paradigm_gap,0.0027078361796890344,1.4891024992188137e-05
+mt_safe_tfidf,new,tipologia de minoria,paradigm_gap,0.005331053839339765,3.108457211662662e-05
+mt_outlier_tfidf,new,tipologia de minoria,paradigm_gap,0.001498189801686854,-1.435615723403261e-05
+lc_slope_minilm,new,curva de aprendizado,paradigm_gap,0.0029429001870339205,-6.951691033776467e-05
+lc_slope_tfidf,new,curva de aprendizado,paradigm_gap,0.005555593729671066,0.00022340284523867166
+lc_auc_gap_minilm_minus_tfidf,new,curva de aprendizado,paradigm_gap,0.007551230456582664,1.0256800004567503e-05
